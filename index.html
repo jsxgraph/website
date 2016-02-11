@@ -1,0 +1,282 @@
+---
+layout: landing
+title: JSXGraph
+subtitle: Dynamic Mathematics with JavaScript
+---
+
+<div class="row">
+  <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 jumbotron text-center">
+    <h3>interactive geometry, plotting, visualization</h3>
+    <p>
+        JSXGraph is a cross-browser JavaScript library for interactive geometry,
+        function plotting, charting, and data visualization in the web browser.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1">
+    <h4>Features</h4>
+    <ul>
+        <li> Euclidean and projective Geometry</li>
+        <li> Curve plotting</li>
+        <li> Open source</li>
+        <li> High-performance</li>
+        <li> Small footprint </li>
+        <li> No dependencies</li>
+        <li> Multi-touch support</li>
+        <li> Backward compatible down to IE 6</li>
+    </ul>
+    <p>
+    JSXGraph is implemented in pure JavaScript, does not rely on any other library,
+    and uses SVG, VML, or canvas.
+    Special care has been taken to optimize the performance.
+    <!-- <p>
+    The new interactive geometry software sketchometry is based on JSXGraph.
+    -->
+    </p>
+  </div>
+  <div class="col-lg-4 col-md-4">
+    <h4>Examples</h4>
+    <div id='box2' class='jxgbox' style='width:320px; height:320px;'></div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1">
+    <h4>License</h4>
+    <p>
+    JSXGraph is released under the
+    <a href="http://www.gnu.org/licenses/licenses.html#LGPL" target="_blank">LGPL
+        &#8211; Lesser GNU General Public License</a> &#8211;
+        and the
+    <a href="https://github.com/jsxgraph/jsxgraph/blob/master/LICENSE.MIT" target="_blank">MIT license</a>.
+    </p>
+  </div>
+  <div class="col-lg-4 col-md-4">
+    <div id='box' class='jxgbox' style='width:320px; height:220px;'></div>
+    <p><a href="/wiki/index.php/Category:Examples">More examples ...</a></p>
+  </div>
+</div> <!-- row -->
+
+<script type='text/javascript'>
+(function(){
+    var brd = JXG.JSXGraph.initBoard('box', {originX: 100, originY: 110, grid:false, unitX: 40, unitY: 40});
+    solveQ2 = function(x1,x2,x3,off) {
+        var a, b, c, d;
+        a = 0.5;
+        b = -(x1+x2+x3);
+        c = x1*x1+x2*x2+x3*x3-0.5*(x1+x2+x3)*(x1+x2+x3)-off;
+        d = b*b-4*a*c;
+        if (Math.abs(d)<0.00000001) d = 0.0;
+        return [(-b+Math.sqrt(d))/(2.0*a),(-b-Math.sqrt(d))/(2.0*a)];
+    }
+
+    a = brd.create('line',[[0,0],[2,0]],{straightFirst:false,straightLast:false,visible:false});
+    p0 = brd.create('point',[0,0],{name:'',visible:false});
+    p1 = brd.create('glider',[1.3,0,a],{name:'drag me'});
+
+    b0 = -0.5;
+    r1 = 2-p1.X();
+    b1 = 1.0/r1;
+    r2 = (2.0-r1);
+    b2 = 1.0/r2;
+
+    p2 = brd.create('point',[function(){return p1.X()-2;},0],{name:'',visible:false});
+
+    c0 = brd.create('circle',[p0,Math.abs(1.0/b0)],{strokeWidth:1,withLabel:false});
+    c1 = brd.create('circle',[p1,function(){return 2-p1.X();}],{strokeWidth:1,withLabel:false});
+    c2 = brd.create('circle',[p2,function(){return p1.X();}],{strokeWidth:1,withLabel:false});
+    c0.curvature = function(){ return b0;}; // constant
+    c1.curvature = function(){ return 1/(2-p1.X());};
+    c2.curvature = function(){ return 1/(p1.X());};
+
+    thirdCircleX = function() {
+        var b0,b1,b2,x0,x1,x2, b3,bx3;
+        b0 = c0.curvature();
+        b1 = c1.curvature();
+        b2 = c2.curvature();
+        x0 = c0.midpoint.X();
+        x1 = c1.midpoint.X();
+        x2 = c2.midpoint.X();
+
+        b3 = solveQ2(b0,b1,b2,0);
+        bx3 = solveQ2(b0*x0,b1*x1,b2*x2,2);
+        return bx3[0]/b3[0];
+    }
+    thirdCircleY = function() {
+        var b0,b1,b2,y0,y1,y2, b3,by3;
+        b0 = c0.curvature();
+        b1 = c1.curvature();
+        b2 = c2.curvature();
+        y0 = c0.midpoint.Y();
+        y1 = c1.midpoint.Y();
+        y2 = c2.midpoint.Y();
+
+        b3 = solveQ2(b0,b1,b2,0);
+        by3 = solveQ2(b0*y0,b1*y1,b2*y2,2);
+        return by3[0]/b3[0];
+    }
+    thirdCircleRadius = function() {
+        var b0,b1,b2, b3,bx3,by3;
+        b0 = c0.curvature();
+        b1 = c1.curvature();
+        b2 = c2.curvature();
+        b3 = solveQ2(b0,b1,b2,0);
+        return 1.0/b3[0];
+    }
+
+    p3 = brd.create('point',[thirdCircleX,thirdCircleY],{name:'',visible:false});
+    c3 = brd.create('circle',[p3,thirdCircleRadius],{strokeWidth:1,withLabel:false});
+    c3.curvature = function(){ return 1.0/this.radius;};
+
+    otherCirc = function(circs,level) {
+        var p,c, fx,fy,fr;
+        if (level<=0) return;
+        fx = function() {
+            var b,x,i;
+            b = [];
+            x = [];
+            for (i=0;i<4;i++) {
+                b[i] = circs[i].curvature();
+                x[i] = circs[i].midpoint.X();
+            }
+
+            b[4] = 2*(b[0]+b[1]+b[2])-b[3];
+            x[4] = (2*(b[0]*x[0]+b[1]*x[1]+b[2]*x[2])-b[3]*x[3])/b[4];
+            return x[4];
+        }
+        fy = function() {
+            var b,y,i;
+            b = [];
+            y = [];
+            for (i=0;i<4;i++) {
+                b[i] = circs[i].curvature();
+                y[i] = circs[i].midpoint.Y();
+            }
+
+            b[4] = 2*(b[0]+b[1]+b[2])-b[3];
+            y[4] = (2*(b[0]*y[0]+b[1]*y[1]+b[2]*y[2])-b[3]*y[3])/b[4];
+            return y[4];
+        }
+        fr = function() {
+            var b,i;
+            b = [];
+            for (i=0;i<4;i++) {
+                b[i] = circs[i].curvature();
+            }
+            b[4] = 2*(b[0]+b[1]+b[2])-b[3];
+            if (isNaN(b[4])) {
+                return 1000.0;
+            } else {
+                return 1/b[4];
+            }
+        }
+        p = brd.create('point',[fx,fy],{name:'',visible:false});
+        c = brd.create('circle',[p,fr],{strokeWidth:1,
+                   fillColor:JXG.hsv2rgb((70*level)%360,0.9,0.8),highlightFillColor:JXG.hsv2rgb((70*level)%360,0.9,0.6),fillOpacity:0.7,withLabel:false});
+        c.curvature = function(){ return 1/this.radius;};
+
+        // Recursion
+        otherCirc([circs[0],circs[1],c,circs[2]],level-1);
+        otherCirc([circs[0],circs[2],c,circs[1]],level-1);
+        otherCirc([circs[1],circs[2],c,circs[0]],level-1);
+        return c;
+    }
+
+    //-------------------------------------------------------
+    brd.suspendUpdate();
+    level = 3;
+    otherCirc([c0,c1,c2,c3],level);
+    otherCirc([c3,c1,c2,c0],level);
+    otherCirc([c0,c2,c3,c1],level);
+    otherCirc([c0,c1,c3,c2],level);
+    brd.unsuspendUpdate();
+})();
+
+// Euler line
+(function () {
+
+    var board = JXG.JSXGraph.initBoard('box2', {boundingbox: [-1.5, 2, 1.5, -1], keepaspectratio:true});
+
+    var cerise = {
+            strokeColor: '#901B77',
+            fillColor: '#CA147A'
+        },
+
+        grass = {
+            strokeColor: '#009256',
+            fillColor: '#65B72E',
+            visible: true,
+            withLabel: true
+        },
+
+        perpendicular = {
+            strokeColor: 'black',
+            dash: 1,
+            strokeWidth: 1,
+            point: JXG.deepCopy(cerise, {
+                visible: true,
+                withLabel: true
+            })
+        },
+
+        median = {
+            strokeWidth: 1,
+            strokeColor: '#333333',
+            dash:2
+        },
+
+        A = board.create('point', [1, 0], cerise),
+        B = board.create('point', [-1, 0], cerise),
+        C = board.create('point', [0.2, 1.5], cerise),
+        pol = board.create('polygon',[A,B,C], {
+            fillColor: '#FFFF00',
+            lines: {
+                strokeWidth: 2,
+                strokeColor: '#009256'
+            }
+        });
+
+    var pABC, pBCA, pCAB, i1;
+    perpendicular.point.name = 'H_c';
+    pABC = board.create('perpendicular', [pol.borders[0], C], perpendicular);
+    perpendicular.point.name = 'H_a';
+    pBCA = board.create('perpendicular', [pol.borders[1], A], perpendicular);
+    perpendicular.point.name = 'H_b';
+    pCAB = board.create('perpendicular', [pol.borders[2], B], perpendicular);
+    grass.name = 'H';
+    i1 = board.create('intersection', [pABC, pCAB, 0], grass);
+
+    var mAB, mBC, mCA;
+    cerise.name = 'M_c';
+    mAB = board.create('midpoint', [A, B], cerise);
+    cerise.name = 'M_a';
+    mBC = board.create('midpoint', [B, C], cerise);
+    cerise.name = 'M_b';
+    mCA = board.create('midpoint', [C, A], cerise);
+
+    var ma, mb, mc, i2;
+    ma = board.create('segment', [mBC, A], median);
+    mb = board.create('segment', [mCA, B], median);
+    mc = board.create('segment', [mAB, C], median);
+    grass.name = 'S';
+    i2 = board.create('intersection', [ma, mc, 0], grass);
+
+    var c;
+    grass.name = 'U';
+    c = board.create('circumcircle',[A, B, C], {
+        strokeColor: '#000000',
+        dash: 3,
+        strokeWidth: 1,
+        point: grass
+    });
+
+    var euler;
+    euler = board.create('line', [i1, i2], {
+        strokeWidth: 2,
+        strokeColor:'#901B77'
+    });
+    board.update();
+})();
+</script>
