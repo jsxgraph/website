@@ -15,12 +15,12 @@ The easiest way to use JSXGraph is to link directly to the public installation a
 
 ```html
 <script type="text/javascript"
- src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js"></script>
+ src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.4/jsxgraphcore.js"></script>
 ```
 
 The latest JSXGraph version hosted on **cdnjs** is:
 
-* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js>
+* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.4/jsxgraphcore.js>
 
 ### JSXGraph site
 Download the latest version (v0.99.4) from the JSXGraph home page:
