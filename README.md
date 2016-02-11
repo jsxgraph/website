@@ -1,2 +1,2 @@
 # website
-JSXGrapg website at http://jsxgraph.org
+JSXGraph website at http://jsxgraph.org
