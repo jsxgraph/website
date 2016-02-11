@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Dynamic Mathematics with JavaScript
+subtitle: Latest version 0.99.4
 ---
 
 To use JSXGraph, you need two files:
@@ -23,7 +23,7 @@ The latest JSXGraph version hosted on **cdnjs** is:
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js>
 
 ### JSXGraph site
-Download the latest version (v0.99.3) from the JSXGraph home page:
+Download the latest version (v0.99.4) from the JSXGraph home page:
 
 * <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js>.
 
