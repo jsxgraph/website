@@ -141,6 +141,12 @@ img {
   width: 50px;
   margin-top: -25px;
 }
+@media only screen and (max-width: 1200px) and (min-width: 769px) {
+    .navbar-custom .avatar-container {
+        left: 20%;
+    }
+}
+
 .navbar-custom .avatar-container  .avatar-img-border {
   width: 100%;
   /*border-radius: 50%;*/
