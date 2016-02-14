@@ -42,7 +42,6 @@ Beware, there may be untested features (bugs)!
 * [Bug tracker](https://github.com/jsxgraph/jsxgraph/issues)
 * [Join the discussion at Google groups](https://groups.google.com/forum/#!forum/jsxgraph)
 * **JetBrains WebStorm**: JetBrains supports the development of JSXGraph with free licenses under their Open Source Support Program.
-<a href="http://www.jetbrains.com/webstorm/" style="display:block; background:#0281b6 url(http://www.jetbrains.com/webstorm/documentation/webstorm_banners/webstorm1/webstorm468x60_turquoise.gif) no-repeat 10px 50%; border:solid 1px #0281b6; margin:0;padding:0;text-decoration:none;text-indent:0;letter-spacing:-0.001em; width:466px; height:58px" alt="Smart IDE for web development with HTML Editor, CSS & JavaScript support" title="Smart IDE for web development with HTML Editor, CSS & JavaScript support"><span style="margin: 5px 0 0 63px;padding: 0;float: left;font-size: 12px;cursor:pointer;  background-image:none;border:0;color: #88d5f4; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">Developed with</span><span style="margin:0 0 0 195px;padding:18px 0 2px 0; line-height:13px;font-size:13px;cursor:pointer;  background-image:none;border:0;display:block; width:265px; color: #88d5f4; font-family: trebuchet ms,arial,sans-serif;font-weight: normal;text-align:left;">Smart IDE for web development<br />with HTML Editor, CSS & JavaScript support</span></a>
 
 ### Plug-ins
 
