@@ -32,6 +32,6 @@ JSXGraph has been be presented at the following conferences:
 ### White papers about JSXGraph
 
 * Michael Gerhäuser, Bianca Valentin: <a href="/talks/svgopen09/jsxgraph.pdf" target="_blank">Interactive SVG with JSXGraph</a>, Proceedings of the SVGOpen 2009. See also [Interactive SVG with JSXGraph](http://svgopen.org/2009/papers/14-Interactive_SVG_with_JSXGraph/)
- * Michael Gerhäuser, Bianca Valentin, Alfred Wassermann: [_JSXGraph – Dynamic Mathematics with JavaScript_](http://www.tech.plym.ac.uk/research/mathematics_education/field%20of%20work/ijtme/volume%2017/number_four.html), in The International Journal for Technology in Mathematics Education (IJTME), ISSN: 1744-2710, **17** 4 (2010)
+ * Michael Gerhäuser, Bianca Valentin, Alfred Wassermann: [_JSXGraph – Dynamic Mathematics with JavaScript_](https://www.editlib.org/p/109512/), in The International Journal for Technology in Mathematics Education (IJTME), ISSN: 1744-2710, **17** 4 (2010)
 * Alfred Wassermann: _The Challenge of a New Hardware Generation to Mathematics Education_, In Bianco, Tamara; Ulm, Volker (Hrsg.): Mathematics Education with Technology, Experiences in Europe, Universität Augsburg, Augsburg 2010. ISBN 978-3-00-032628-8
 * Michael Gerhäuser, Bianca Valentin, Alfred Wassermann, Peter Wilfahrt: JSXGraph &#8211; Dynamic Mathematics Running on (nearly) Every Device. Electronic Journal of Mathematics and Technology 5 (1) (2011). Available at <http://www.radford.edu/ejmt>.
