@@ -35,3 +35,8 @@ JSXGraph has been be presented at the following conferences:
 * Michael Gerhäuser, Bianca Valentin, Alfred Wassermann: [_JSXGraph – Dynamic Mathematics with JavaScript_](https://www.editlib.org/p/109512/), in The International Journal for Technology in Mathematics Education (IJTME), ISSN: 1744-2710, **17** 4 (2010)
 * Alfred Wassermann: _The Challenge of a New Hardware Generation to Mathematics Education_, In Bianco, Tamara; Ulm, Volker (Hrsg.): Mathematics Education with Technology, Experiences in Europe, Universität Augsburg, Augsburg 2010. ISBN 978-3-00-032628-8
 * Michael Gerhäuser, Bianca Valentin, Alfred Wassermann, Peter Wilfahrt: JSXGraph &#8211; Dynamic Mathematics Running on (nearly) Every Device. Electronic Journal of Mathematics and Technology 5 (1) (2011). Available at <http://www.radford.edu/ejmt>.
+* Matthias Ehmann, Michael Gerh&auml;user, Carsten Miller, Heiko Vogel, and Alfred Wassermann: Interactive geometry for the web and mobile devices. In Peter Baptist and Dagmar Raab, editors, <em>Implementing Inquiry in Mathematics Education</em>. Universit&auml;t Bayreuth, 2012.
+* Matthias Ehmann, Michael Gerh&auml;user, Carsten Miller, and Alfred Wassermann: Sketchometry and JSXGraph - dynamic geometry for mobile devices. <em>South Bohemia Mathematical Letters</em>, 21:1-7, 2013.
+* Darko Drakuli&#x107;, Igor Pesek, Alfred Wassermann, and Bla&#382; Zmazek: JSXGraph in i-textbooks. In Igor Pesek, Bla&#382; Zmazek, and Vladimir Milek&scaron;i&#x010D;, editors, <em>Slovenian i-textbooks</em>, pages 93--114. The National Education Institute Slovenia, 2014.
+
+
