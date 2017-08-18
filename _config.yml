@@ -28,11 +28,11 @@ avatar: "/img/logo_tw.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About: "about.html"
-  Download: "download.html"
-  Docs: "docs.html"
-  Blog: "blog/"
-  JSXCompressor: "jsxcompressor.html"
+  About: "about/index.html"
+  Download: "download/index.html"
+  Docs: "docs/index.html"
+  Blog: "blog/index.html"
+  JSXCompressor: "jsxcompressor/index.html"
 
 # --- Footer options --- #
 
