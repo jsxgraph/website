@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version 0.99.5
+subtitle: Latest version 0.99.6
 ---
 
 To use JSXGraph, you need two files:
@@ -15,15 +15,15 @@ The easiest way to use JSXGraph is to link directly to the public installation a
 
 ```html
 <script type="text/javascript"
- src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script>
+ src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js"></script>
 ```
 
 The latest JSXGraph version hosted on **cdnjs** is:
 
-* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js>
+* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js>
 
 ### JSXGraph site
-Download the latest version (v0.99.5) from the JSXGraph home page:
+Download the latest version (v0.99.6) from the JSXGraph home page:
 
 * <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore.js>.
 
