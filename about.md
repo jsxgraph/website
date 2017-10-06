@@ -60,7 +60,7 @@ This is the source code for the above construction:
 <html>
 <head>
   <title>Example</title>
-  <script type="text/javascript"
+  <script type="text/javascript" charset="UTF-8"
    src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js"></script>
 </head>
 <body>

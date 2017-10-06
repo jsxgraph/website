@@ -14,7 +14,7 @@ To use JSXGraph, you need two files:
 The easiest way to use JSXGraph is to link directly to the public installation available through the Content Distribution Network (CDN) **cdnjs**. Put the following code into the `<head>` block of your document:
 
 ```html
-<script type="text/javascript"
+<script type="text/javascript" charset="UTF-8"
  src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js"></script>
 ```
 
