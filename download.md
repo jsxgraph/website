@@ -34,7 +34,7 @@ Beware, there may be untested features (bugs)!
 
 ### Previous releases
 
-[Here are links to older versions of JSXGraph](previousreleases.html).
+<a href="previousreleases">Here are links to older versions of JSXGraph.</a>
 
 ### Source code
 
