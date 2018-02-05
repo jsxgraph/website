@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Examples
 subtitle:  Dynamic Mathematics with JavaScript
 ---
 

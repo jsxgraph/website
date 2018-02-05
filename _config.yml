@@ -4,7 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (username.github.io) then use these settings:
-url: "http://jsxgraph.uni-bayreuth.de"
+#url: "http://jsxgraph.uni-bayreuth.de"
+url: "https://jsxgraph.org"
 baseurl: "/wp"
 
 # If you are building a GitHub project page then use these settings:
@@ -28,7 +29,7 @@ avatar: "/img/logo_tw.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About: "about/index.html"
+  Examples: "about/index.html"
   Download: "download/index.html"
   Docs: "docs/index.html"
   Blog: "blog/index.html"

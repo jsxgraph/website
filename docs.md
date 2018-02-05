@@ -9,18 +9,24 @@ subtitle: Dynamic Mathematics with JavaScript
 * [First steps with many examples](/wiki/index.php/Documentation)
 * [All examples](/wiki/index.php/Category:Examples)
 * construct directly with JavaScript. In our Wiki we describe [how to do it](http://jsxgraph.uni-bayreuth.de/wiki/index.php/Documentation)
-* provide a <a href="http://geonext.de" target="_blank">GEONExT</a> file (or string). [How to](http://jsxgraph.uni-bayreuth.de/wiki/index.php/Displaying_GEONExT_constructions)
-* provide an <a href="http://i2geo.net/" target="_blank">Intergeo</a> file. [How to](http://jsxgraph.uni-bayreuth.de/wiki/index.php/Displaying_Intergeo_constructions)[<img class=" purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs" src="http://geonext.uni-bayreuth.de/uploads/pics/Banner-Button_120x60_v2_0.png" alt="i2geo" />](http://i2geo.net)
+* provide a <a href="http://geonext.de" target="_blank">GEONExT</a> file (or string). [How to](//jsxgraph.org/wiki/index.php/Displaying_GEONExT_constructions)
+* provide an <a href="http://i2geo.net/" target="_blank">Intergeo</a> file. [How to](//jsxgraph.org/wiki/index.php/Displaying_Intergeo_constructions)[<img class=" purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs purwwxrngbxponrzdqjs" src="http://geonext.uni-bayreuth.de/uploads/pics/Banner-Button_120x60_v2_0.png" alt="i2geo" />](http://i2geo.net)
 
 All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no global variables.
 
 ### Support
 
-* The [JSXGraph forum at Google groups](https://groups.google.com/forum/#!forum/jsxgraph) is the place to ask questions and exchange tips and tricks.
+#### Coding help
+* [stackoverflow.com](https://stackoverflow.com/search?tab=newest&q=jsxgraph) is the place where you get help with your JSXGraph code.
+* [jsfiddle](https://jsfiddle.net/vcL7aepo/1/) template for your JSXGraph question.
+* [Github bug tracker](https://github.com/jsxgraph/jsxgraph/issues)
+
+#### Discussion of development and future direction of JSXGraph
+* The [JSXGraph forum at Google groups](https://groups.google.com/forum/#!forum/jsxgraph) is the place to discuss feature requests and the future of JSXGraph
+
 
 ### Presentations
 JSXGraph has been be presented at the following conferences:
-
 * <a href="/talks/jsxgraphMathematical_and_Scientific_e-Contents.pdf" target="_blank"><em>Dynamic Mathematics with GEONExT &#8211; New Concepts</em></a> at <a href="http://www.ntnu.no/delta/workshop/" target="_blank">4th European Workshop on Mathematical & Scientific e-Contents, Trondheim 2008</a>
 * <a href="/talks/cadgme09/talk/" target="_blank"><em>JSXGraph &#8211; Dynamic Geometry with JavaScript</em></a> at <a href="http://www.risc.uni-linz.ac.at/about/conferences/cadgme2009/" target="_blank">Computer Algebra and Dynamic Geometry Systems in Mathematics Education (CADGME),</a> Hagenberg 2009
 * <a href="/talks/svgopen09/presentation/index.html" target="_blank"><em>Interactive SVG with JSXGraph</em></a> at <a href="http://www.svgopen.org/2009/" target="_blank">SVG Open &#8211; 7th International Conference on Scalable Vector Graphics</a>, Mountain View 2009
