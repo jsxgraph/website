@@ -99,13 +99,13 @@ var g2 = brd.create('functiongraph', [JXG.Math.Numerics.D(pol), -10, 10],
 
 ### Team
 
-JSXGraph has started as a seminar at the <a href="http://www.uni-bayreuth.de">University of Bayreuth</a>.
+JSXGraph has started as a seminar at the <a href="//www.uni-bayreuth.de">University of Bayreuth</a>.
 At the moment there are the following members in the developer team:
 
-* <a href="http://did.mat.uni-bayreuth.de/~matthias/" target="_blank">Matthias Ehmann</a>
-* <a href="http://www.michael-gerhaeuser.de/" target="_blank">Michael Gerhäuser</a>
-* <a href="http://tucnak.de/" target="_blank">Carsten Miller</a>
-* <a href="http://did.mat.uni-bayreuth.de/~alfred/home/index.html" target="_blank">Alfred Wassermann</a>
+* <a href="//did.mat.uni-bayreuth.de/~matthias/" target="_blank">Matthias Ehmann</a>
+* <a href="//www.michael-gerhaeuser.de/" target="_blank">Michael Gerhäuser</a>
+* <a href="//tucnak.de/" target="_blank">Carsten Miller</a>
+* <a href="//did.mat.uni-bayreuth.de/~alfred/home/index.html" target="_blank">Alfred Wassermann</a>
 
 Former members of the team:
 
