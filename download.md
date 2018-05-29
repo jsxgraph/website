@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version 0.99.6
+subtitle: Latest version 0.99.7
 ---
 
 **JSXGraph** needs two files:
@@ -15,8 +15,8 @@ The easiest way to use JSXGraph is to link directly to the public installation a
 
 ```html
 <script type="text/javascript" charset="UTF-8"
- src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js"></script>
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraph.css" />
+ src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraph.css" />
 ```
 
 The latest JSXGraph version hosted on **cdnjs** is:
@@ -25,7 +25,7 @@ The latest JSXGraph version hosted on **cdnjs** is:
 * <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraph.css>
 
 ### JSXGraph site
-Download the latest version (v0.99.6) from the JSXGraph home page:
+Download the latest version (v0.99.7) from the JSXGraph home page:
 * <https://jsxgraph.org/distrib/jsxgraphcore.js>.
 
 
@@ -38,12 +38,13 @@ Download the latest version (v0.99.6) from the JSXGraph home page:
 
 ### Nightly builds
 
-The latest development version can always be downloaded/used from <//jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/>.
+The latest development version can always be downloaded/used from 
+<a href="//jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/">//jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/</a>.
 Beware, there may be untested features (bugs)!
 
 ### Previous releases
 
-<a href="previousreleases/">Here are links to older versions of JSXGraph.</a>
+<a href="../previousreleases/">Here are links to older versions of JSXGraph.</a>
 
 ### Source code
 

@@ -8,6 +8,7 @@ subtitle: Dynamic Mathematics with JavaScript
 
 Available previous JSXGraph versions hosted on **cdnjs** are:
 
+* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.4/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js>
