@@ -37,7 +37,6 @@ into learning management system [moodle](//moodle.org){:target="_blank"} via the
 * The inequality element takes now also the functiongraph element as input
 * Screenshot button: [https://groups.google.com/forum/#!topic/jsxgraph/t0eM5DiuGws]
 
-
 We thank all contributors which supplied patches, bug reports and suggestions for improvements.
 
 For a full list of all changes see the [CHANGELOG](https://github.com/jsxgraph/jsxgraph/blob/master/CHANGELOG.md).
