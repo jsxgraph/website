@@ -21,8 +21,8 @@ The easiest way to use JSXGraph is to link directly to the public installation a
 
 The latest JSXGraph version hosted on **cdnjs** is:
 
-* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js>
-* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraph.css>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraph.css>
 
 ### JSXGraph site
 Download the latest version (v0.99.7) from the JSXGraph home page:

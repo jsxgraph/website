@@ -17,12 +17,12 @@ All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no globa
 ### Support
 
 #### Coding help
-* [stackoverflow.com](https://stackoverflow.com/search?tab=newest&q=jsxgraph) is the place where you get help with your JSXGraph code.
-* [jsfiddle](https://jsfiddle.net/vcL7aepo/1/) template for your JSXGraph question.
-* [Github bug tracker](https://github.com/jsxgraph/jsxgraph/issues)
+* [stackoverflow.com](https://stackoverflow.com/search?tab=newest&q=jsxgraph){:target="_blank"} is the place where you get help with your JSXGraph code.
+* [jsfiddle](https://jsfiddle.net/vcL7aepo/337/){:target="_blank"} template for your JSXGraph question.
+* [Github bug tracker](https://github.com/jsxgraph/jsxgraph/issues){:target="_blank"}
 
 #### Discussion of development and future direction of JSXGraph
-* The [JSXGraph forum at Google groups](https://groups.google.com/forum/#!forum/jsxgraph) is the place to discuss feature requests and the future of JSXGraph
+* The [JSXGraph forum at Google groups](https://groups.google.com/forum/#!forum/jsxgraph){:target="_blank"} is the place to discuss feature requests and the future of JSXGraph
 
 
 ### Presentations

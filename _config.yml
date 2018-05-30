@@ -81,7 +81,7 @@ kramdown:
     syntax_highlighter: rouge
     coderay_line_numbers: inline
 
-permalink: /:year-:month-:day-:title/
+permalink: blog/:year-:month-:day-:title/
 
 paginate_path: "blog/page:num"
 paginate: 5
@@ -108,6 +108,7 @@ exclude:
   - README.md
   - CNAME
   - Vagrantfile
+  - do_jekyll.sh
 
 # prose.io config
 prose:
