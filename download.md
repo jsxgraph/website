@@ -15,41 +15,39 @@ The easiest way to use JSXGraph is to link directly to the public installation a
 
 ```html
 <script type="text/javascript" charset="UTF-8"
- src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js"></script>
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraph.css" />
+ src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraphcore.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraph.css" />
 ```
 
 The latest JSXGraph version hosted on **cdnjs** is:
 
-* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js>
-* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraph.css>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraph.css>
 
 ### JSXGraph site
-Download the latest version (v0.99.7) from the JSXGraph home page:
-* <https://jsxgraph.org/distrib/jsxgraphcore.js>.
+Download the latest version {{ site.version_number }} from the [JSXGraph home page](https://jsxgraph.org/distrib/jsxgraphcore.js)
 
 
 ### Plug-ins
 * [JSXGraph plug-in for Moodle](https://github.com/jsxgraph/moodle-jsxgraph-plugin)
-* <a href="http://did.mat.uni-bayreuth.de/~matthias/jsxgraph/creator/" target="_blank">Online script to create JSXGraph HTML pages from GEONExT files</a>
-* <a href="http://www.mediawiki.org/wiki/Extension:JSXGraph" target="_blank">JSXGraph MediaWiki extension</a>
-* <a href="http://wordpress.org/extend/plugins/jsxgraph/" target="_blank">JSXGraph plug-in for WordPress</a>
-* [JSXGraph plug-in for Drupal](http://drupal.org/project/jsxgraph)
-
-### Nightly builds
-
-The latest development version can always be downloaded/used from 
-<a href="//jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/">//jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/</a>.
-Beware, there may be untested features (bugs)!
-
-### Previous releases
-
-<a href="../previousreleases/">Here are links to older versions of JSXGraph.</a>
+* [Online script to create JSXGraph HTML pages from GEONExT files](http://did.mat.uni-bayreuth.de/~matthias/jsxgraph/creator){:target="_blank"}
+* [JSXGraph MediaWiki extension](http://www.mediawiki.org/wiki/Extension:JSXGraph){:target="_blank"}
+* [JSXGraph plug-in for WordPress](http://wordpress.org/extend/plugins/jsxgraph){:target="_blank"}
+* [JSXGraph plug-in for Drupal](http://drupal.org/project/jsxgraph){:target="_blank"}
 
 ### Source code
 
 * The JSXGraph source code is hosted on [GitHub](https://github.com/jsxgraph/jsxgraph)
 * [Bug tracker](https://github.com/jsxgraph/jsxgraph/issues)
-* **JetBrains WebStorm**: JetBrains supports the development of JSXGraph with free licenses under their Open Source Support Program.
+* **[JetBrains WebStorm](https://www.jetbrains.com/webstorm/)**: JetBrains supports the development of JSXGraph with free licenses under their Open Source Support Program.
+
+### Nightly builds
+
+The latest development version can always be downloaded/used from <https://jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/>.
+Beware, there may be untested features (bugs)!
 
 
+
+### Previous releases
+
+[Here are links to older versions of JSXGraph.](https://jsxgraph.org/wp/previousreleases/)

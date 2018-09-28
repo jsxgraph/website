@@ -4,8 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (username.github.io) then use these settings:
-#url: "http://jsxgraph.uni-bayreuth.de"
-url: "https://jsxgraph.org"
+url: "http://jsxgraph.org"
 baseurl: "/wp"
 
 # If you are building a GitHub project page then use these settings:
@@ -16,6 +15,9 @@ baseurl: "/wp"
 
 # Name of website
 title: JSXGraph
+
+# Latest JSXGraph version
+version_number: 0.99.7
 
 # Short description of your site
 description: Interactive Geometry, plotting, visualization
@@ -28,12 +30,14 @@ avatar: "/img/logo_tw.png"
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
+  #Home: ""
+  API Reference: "https://jsxgraph.org/docs/index.html"
   Examples: "about/index.html"
   Download: "download/index.html"
   Docs: "docs/index.html"
+  References: "ref/index.html"
   Blog: "blog/index.html"
-  JSXCompressor: "jsxcompressor/index.html"
+    #JSXCompressor: "jsxcompressor/index.html"
 
 # --- Footer options --- #
 
@@ -81,7 +85,7 @@ kramdown:
     syntax_highlighter: rouge
     coderay_line_numbers: inline
 
-permalink: blog/:year-:month-:day-:title/
+permalink: /:year-:month-:day-:title/
 
 paginate_path: "blog/page:num"
 paginate: 5
@@ -108,7 +112,6 @@ exclude:
   - README.md
   - CNAME
   - Vagrantfile
-  - do_jekyll.sh
 
 # prose.io config
 prose:
@@ -154,8 +157,6 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
-
-gems: [jekyll-paginate]
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
