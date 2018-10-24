@@ -14,9 +14,9 @@ requests for new features from active JSXGraph users.
 ### New elements
 
 * [comb](//jsxgraph.org/docs/symbols/Comb.html){:target="_blank"}
-* [cardinalspline](jsxgraph.org/docs/symbols/Cardinalspline.html){:target="_blank"}
+* [cardinalspline](//jsxgraph.org/docs/symbols/Cardinalspline.html){:target="_blank"}
 * [derivative](//jsxgraph.org/docs/symbols/Derivative.html){:target="_blank"}
-* [mirrorelement](jsxgraph.org/docs/symbols/Mirrorelement.html){:target="_blank"}
+* [mirrorelement](//jsxgraph.org/docs/symbols/Mirrorelement.html){:target="_blank"}
 * [reflection](//jsxgraph.org/docs/symbols/Reflection.html){:target="_blank"}
 
 ### Improvements and bug fixes
