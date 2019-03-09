@@ -22,7 +22,7 @@ European [ERASMUS+ KA2](https://www.erasmusplus.org.uk/key-action-2) projects ai
 It is a *free* course organized by [Center for Mobile Learning with Digital Technology, University of Bayreuth](http://mobile-learning.uni-bayreuth.de/) in collaboration with Alicante University. 
 It will take place in *Alicante* (Spain) from *September 3rd to September 6th 2019*. 
 Information can be found at the [workshop website](https://itemspro.eu/courses/ka1course.html) and 
-at [schooleductaiongateway.eu](https://www.schooleducationgateway.eu/en/pub/teacher_academy/catalogue/detail.cfm?cbmid=4015310).
+at [schooleducationgateway.eu](https://www.schooleducationgateway.eu/en/pub/teacher_academy/catalogue/detail.cfm?cbmid=4015310).
 
 Hope to see some of you in person in Alicante!
 
