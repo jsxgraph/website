@@ -18,7 +18,7 @@ All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no globa
 
 #### Coding help
 * [stackoverflow.com](https://stackoverflow.com/search?tab=newest&q=jsxgraph) is the place where you get help with your JSXGraph code.
-* [jsfiddle](https://jsfiddle.net/vcL7aepo/1/) template for your JSXGraph question.
+* [jsfiddle](https://jsfiddle.net/dr63zumf/1/) template for your JSXGraph question.
 * [Github bug tracker](https://github.com/jsxgraph/jsxgraph/issues)
 
 #### Discussion of development and future direction of JSXGraph
