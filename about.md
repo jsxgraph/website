@@ -29,6 +29,7 @@ link2: https://jsxgraph.org/wiki/index.php/Sierpinski_triangle
 * <a href="/showcase">Showcases</a>
 * <a href="/wiki/index.php/Showcases">Selected examples from the JSXGraph-Wiki</a>
 * <a href="/wiki/index.php/Category:Examples">All examples in the JSXGraph-Wiki</a>
+* <a href="//examples.jsxgraph.org/">Examples from the ERASMUS+ projects COMPASS and ITEMS</a>
 * JSXGraph is the basis of [sketchometry](//sketchometry.org). (Our attempt on dynamic geometry software)
 
 {% include carouseltest.html %}

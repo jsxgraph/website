@@ -8,9 +8,12 @@ subtitle: Dynamic Mathematics with JavaScript
 * [API reference](/docs/index.html)
 * [First steps with many examples](/wiki/index.php/Documentation)
 * [All examples](/wiki/index.php/Category:Examples)
-* construct directly with JavaScript. In our Wiki we describe [how to do it](//jsxgraph.uni-bayreuth.de/wiki/index.php/Documentation)
-* provide a <a href="//geonext.de" target="_blank">GEONExT</a> file (or string). [How to](//jsxgraph.org/wiki/index.php/Displaying_GEONExT_constructions)
-* provide an <a href="//i2geo.net/" target="_blank">Intergeo</a> file. [How to](//jsxgraph.org/wiki/index.php/Displaying_Intergeo_constructions)[<img  src="//geonext.uni-bayreuth.de/uploads/pics/Banner-Button_120x60_v2_0.png" alt="i2geo" />](http://i2geo.net)
+* JSXGraph constructions can be generated in various ways.
+    * The straight-forward way is to construct directly with JavaScript. In our Wiki we describe [how to do it](//jsxgraph.uni-bayreuth.de/wiki/index.php/Documentation)
+    * JSXGraph comes with it's own language [JessieCode](../docs_jessiecode/). You can interactively create JessieCode code with [sketchbin](https://bin.sketchometry.org)
+    * [sketchometry](//sketchometry.org) is based on JSXGraph. sketchometry constructions can be exported to JessieCode.
+    * [How to](//jsxgraph.org/wiki/index.php/Displaying_GEONExT_constructions) provide a <a href="//geonext.de" target="_blank">GEONExT</a> file (or string). 
+    * [How to](//jsxgraph.org/wiki/index.php/Displaying_Intergeo_constructions)[<img  src="//geonext.uni-bayreuth.de/uploads/pics/Banner-Button_120x60_v2_0.png" alt="i2geo" />](http://i2geo.net) provide an <a href="//i2geo.net/" target="_blank">Intergeo</a> file.
 
 All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no global variables.
 
