@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version 0.99.7
+subtitle: Latest version 1.00.0
 ---
 
 **JSXGraph** needs two files:
 
 1. Link the file `jsxgraphcore.js` into your web pages. This file has been minified using the UglifyJS compressor. `jsxgraphcore.js` contains the complete source code of JSXGraph bundled in one file. All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no global variables.
-2. Include the css commands from `jsxgraph.css` into the web pages. It can be downloaded from <https://jsxgraph.org/distrib/jsxgraph.css> or from <https://github.com/jsxgraph/jsxgraph>
+2. Include the css commands from `jsxgraph.css` into the web pages. It can be downloaded from <https://jsxgraph.org/distrib/jsxgraph.css> or from <https://github.com/jsxgraph/jsxgraph>.
 
 ### CDN
 
@@ -30,10 +30,10 @@ Download the latest version {{ site.version_number }} from the [JSXGraph home pa
 
 ### Plug-ins
 * [JSXGraph plug-in for Moodle](https://github.com/jsxgraph/moodle-jsxgraph-plugin)
+* [JSXGraph MediaWiki extension](https://www.mediawiki.org/wiki/Extension:JSXGraph){:target="_blank"}
+* [JSXGraph plug-in for WordPress](https://wordpress.org/extend/plugins/jsxgraph){:target="_blank"}
+* [JSXGraph plug-in for Drupal](https://drupal.org/project/jsxgraph){:target="_blank"}
 * [Online script to create JSXGraph HTML pages from GEONExT files](http://did.mat.uni-bayreuth.de/~matthias/jsxgraph/creator){:target="_blank"}
-* [JSXGraph MediaWiki extension](http://www.mediawiki.org/wiki/Extension:JSXGraph){:target="_blank"}
-* [JSXGraph plug-in for WordPress](http://wordpress.org/extend/plugins/jsxgraph){:target="_blank"}
-* [JSXGraph plug-in for Drupal](http://drupal.org/project/jsxgraph){:target="_blank"}
 
 ### Source code
 
