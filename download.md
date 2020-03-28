@@ -11,6 +11,8 @@ subtitle: Latest version 1.00.0
 
 ### CDN
 
+**UPDATE 2020-03-28:** v1.00.0 is not yet available on CDNJS, we are working to resolve this problem.
+
 The easiest way to use JSXGraph is to link directly to the public installation available through the Content Distribution Network (CDN) **cdnjs**. Put the following code into the `<head>` block of your document:
 
 ```html
@@ -23,6 +25,7 @@ The latest JSXGraph version hosted on **cdnjs** is:
 
 * <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraphcore.js>
 * <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraph.css>
+
 
 ### JSXGraph site
 Download the latest version {{ site.version_number }} from the [JSXGraph home page](https://jsxgraph.org/distrib/jsxgraphcore.js)
