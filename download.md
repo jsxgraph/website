@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version 1.00.0
+subtitle: Latest version 1.1.0
 ---
 
 **JSXGraph** needs two files:
@@ -11,21 +11,22 @@ subtitle: Latest version 1.00.0
 
 ### CDN
 
-**UPDATE 2020-03-28:** v1.00.0 is not yet available on CDNJS, we are working to resolve this problem.
+The easiest way to use JSXGraph is to link directly to the public installation available through a Content Distribution Network (CDN). 
+Put one of the following code snippets into the `<head>` block of your document:
 
-The easiest way to use JSXGraph is to link directly to the public installation available through the Content Distribution Network (CDN) **cdnjs**. Put the following code into the `<head>` block of your document:
+```html
+<script type="text/javascript" charset="UTF-8"
+ src="https://cdn.jsdelivr.net/npm/jsxgraph@{{ site.version_number }}/distrib/jsxgraphcore.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph@{{ site.version_number }}/distrib/jsxgraph.css" />
+```
+
+or
 
 ```html
 <script type="text/javascript" charset="UTF-8"
  src="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraphcore.js"></script>
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraph.css" />
 ```
-
-The latest JSXGraph version hosted on **cdnjs** is:
-
-* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraphcore.js>
-* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraph.css>
-
 
 ### JSXGraph site
 Download the latest version {{ site.version_number }} from the [JSXGraph home page](https://jsxgraph.org/distrib/jsxgraphcore.js)
@@ -48,8 +49,6 @@ Download the latest version {{ site.version_number }} from the [JSXGraph home pa
 
 The latest development version can always be downloaded/used from <https://jsxgraph.uni-bayreuth.de/~michael/jsxgraph-nightly/>.
 Beware, there may be untested features (bugs)!
-
-
 
 ### Previous releases
 
