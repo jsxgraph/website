@@ -17,6 +17,11 @@ subtitle: Dynamic Mathematics with JavaScript
 
 All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no global variables.
 
+## Webinar 2020/2021: Advanced JSXGraph Programming
+
+* [Workshop at 1. JSXGraph conference October 2020](/webinar/advanced.pdf), see also [conference homepage](https://jsxgraph.org/conf)
+* [Vol 1, November, 12th, 2020](/webinar/advanced1.pdf)
+
 ## Support
 
 #### Coding help
