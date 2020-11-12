@@ -26,13 +26,13 @@ var f = function(x){ return Math.sin(x); };
 var plot = brd1.create('functiongraph',[f,function(){return a.Value();}, function(){return b.Value();}]);
 
 var os = brd1.create('riemannsum',[f,
-    function(){ return s.Value();}, function(){ "left";},
+    function(){ return s.Value();}, function(){ return "left";},
     function(){return a.Value();},
     function(){return b.Value();}
     ],
     {fillColor:'#ffff00', fillOpacity:0.3});
 
-brd1.create('text',[-6,-3,function(){ return 'Sum='+(JXG.Math.Numerics.riemannsum(f,s.Value(),"left".value,a.Value(),b.Value())).toFixed(4); }]);
+brd1.create('text',[-6,-3,function(){ return 'Sum='+(JXG.Math.Numerics.riemannsum(f,s.Value(),'left',a.Value(),b.Value())).toFixed(4); }]);
     {% endhighlight %}
             </div>
 
@@ -179,13 +179,14 @@ var f = function(x){ return Math.sin(x); };
 var plot = brd1.create('functiongraph',[f,function(){return a.Value();}, function(){return b.Value();}]);
 
 var os = brd1.create('riemannsum',[f,
-    function(){ return s.Value();}, function(){ "left";},
-    function(){return a.Value();},
-    function(){return b.Value();}
+    function(){ return s.Value();}, 
+    function(){ return "left";},
+    function(){ return a.Value();},
+    function(){ return b.Value();}
     ],
     {fillColor:'#ffff00', fillOpacity:0.3});
 
-brd1.create('text',[-6,-3,function(){ return 'Sum='+(JXG.Math.Numerics.riemannsum(f,s.Value(),"left".value,a.Value(),b.Value())).toFixed(4); }]);
+brd1.create('text',[-6,-3,function(){ return 'Sum='+(JXG.Math.Numerics.riemannsum(f,s.Value(),"left",a.Value(),b.Value())).toFixed(4); }]);
 </script>
 
 
