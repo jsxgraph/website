@@ -26,9 +26,11 @@ All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no globa
 ### Previous webinar sessions:
 
 * Workshop at 1. JSXGraph conference October 2020: [PDF](/webinar/advanced.pdf),  [Video](https://jsxgraph.org/conf/program)
-* Vol 1, November, 12th, 2020: [PDF](/webinar/advanced1.pdf), 
+* Vol 1, November 12th, 2020: [PDF](/webinar/advanced1.pdf), 
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/s3sUJualJJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Vol 2, December 16th, 2020: [Zoom lik](https://uni-bayreuth.zoom.us/j/92956928761?pwd=VmFaRTNhbUdmQ3g3dFp4amJQT0hPUT09) 
 
 ## 1st international JSXGraph conference
 
