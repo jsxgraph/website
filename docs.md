@@ -21,16 +21,19 @@ All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no globa
 
 * Notes from the online workshop in fall 2020 and spring 2021
 * For announcements of the next webinar sessions see [JSXGraph forum at Google groups](https://groups.google.com/forum/#!forum/jsxgraph)
-* **Next webinar: Wednesday, December, 16th 2020**
+* **Next webinar: Wednesday, January, 20th 2021, 4 pm CET**
 
 ### Previous webinar sessions:
 
-* Workshop at 1. JSXGraph conference October 2020: [PDF](/webinar/advanced.pdf),  [Video](https://jsxgraph.org/conf/program)
+* Workshop at 1. JSXGraph conference October 2020: [PDF](/webinar/advanced.pdf), [Video](https://jsxgraph.org/conf/program)
 * Vol 1, November 12th, 2020: [PDF](/webinar/advanced1.pdf), 
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/s3sUJualJJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Vol 2, December 16th, 2020: [Zoom lik](https://uni-bayreuth.zoom.us/j/92956928761?pwd=VmFaRTNhbUdmQ3g3dFp4amJQT0hPUT09) 
+* Vol 2, December 16th, 2020: [PDF](/webinar/advanced2.pdf)
+<!--
+[Zoom link](https://uni-bayreuth.zoom.us/j/92956928761?pwd=VmFaRTNhbUdmQ3g3dFp4amJQT0hPUT09) 
+-->
 
 ## 1st international JSXGraph conference
 
