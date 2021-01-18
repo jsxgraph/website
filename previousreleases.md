@@ -6,8 +6,13 @@ subtitle: Dynamic Mathematics with JavaScript
 
 ### From CDN
 
+Available previous JSXGraph versions hosted on **jsdelivr* are:
+
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.1.0/distrib/jsxgraphcore.js>
+
 Available previous JSXGraph versions hosted on **cdnjs** are:
 
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.1.0/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.4/jsxgraphcore.js>
@@ -24,7 +29,8 @@ Available previous JSXGraph versions hosted on **cdnjs** are:
 
 ### From JSXGraph site
 
-* v1.00.0: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.00.0.js>
+* v1.1.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.1.0.js>
+* v1.0.0: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.00.0.js>
 * v0.99.7: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.7.js>
 * v0.99.5: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.5.js>
 * v0.99.4: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.4.js>
