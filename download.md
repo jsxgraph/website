@@ -20,8 +20,8 @@ Put one of the following code snippets into the `<head>` block of your document:
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
 ```
 
-This uses allway the latest version.
-To get a specific version, please specify:
+This uses always the latest version of JSXGraph.
+To get a specific version, please specify e.g.:
 
 ```html
 <script type="text/javascript" charset="UTF-8"
