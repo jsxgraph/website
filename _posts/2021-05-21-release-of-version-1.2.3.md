@@ -51,9 +51,9 @@ var a = board.create('slider',[[-0.7,1.5],[5,1.5],[0,0.5,1]], {
 ```
 
 - `board.fullUpdate()` updates size info of text elements. 
-This is helpful for JSXGraph constructions which are initialised in a hidden parent element. When the board becomes visible, a call of board.fullUpdate() is sufficient to correct the position of the text elements. This can be triggered in an event listener (by the developer). See the problem at <https://github.com/jsxgraph/jsxgraph/issues/348>.
-
-
+This is helpful for JSXGraph constructions which are initialised in a hidden parent element, resulting in misplaced text elements.
+When the board becomes visible, now a call of `board.fullUpdate()` is sufficient to correct the position of the text elements. 
+This can be triggered in an event listener (by the developer). See an example at <https://github.com/jsxgraph/jsxgraph/issues/348>.
 
 Enjoy, 
 
