@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version v1.2.2
+subtitle: Latest version v1.2.3
 ---
 
 **JSXGraph** needs two files:
@@ -13,6 +13,15 @@ subtitle: Latest version v1.2.2
 
 The easiest way to use JSXGraph is to link directly to the public installation available through a Content Distribution Network (CDN). 
 Put one of the following code snippets into the `<head>` block of your document:
+
+```html
+<script type="text/javascript" charset="UTF-8"
+ src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
+```
+
+This uses allway the latest version.
+To get a specific version, please specify:
 
 ```html
 <script type="text/javascript" charset="UTF-8"
