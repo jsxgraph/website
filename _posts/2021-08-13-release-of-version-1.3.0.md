@@ -123,6 +123,7 @@ This attribute is new for curves.
 - There are some new math functions: erf, erfc, erfi, ndtr, ndtri, asinh, acosh in JXG.Math available. erf is the error function.
 - Comparisons and logical operators are now available as functions in JXG.Math: lt, gt, leq, geq, eq, neq, and, or, not, xor.
 These functions allow to avoid `<`, `>` and other characters in environments which filter out any occurrence of HTML tags.
+- The attribute `radius` for angles can take the new value `'auto'`.
 - New boolean method `point.isOn(element)`
 
 ### Other
