@@ -52,11 +52,16 @@ for a more detailed explanation:
         <div id='jxgbox' class='jxgbox div1x1'></div>
     </div>
     <script>
+    const board = JXG.JSXGraph.initBoard('jxgbox', { 
+        boundingbox: [-5, 5, 5, -5], axis:true
+    });
     var pol = board.create('polygon', [[-3,-3], [3,-3], [1,4]], {
             fillColor: 'yellow'
     });
     </script>
 ```
+
+See it live at <https://jsfiddle.net/sd0p2a4r/>.
 
 2) The second version uses the new CSS property `aspect-ratio`, which is - in August 2021 - supported
 by all major browsers beside Safari.
@@ -72,11 +77,16 @@ by all major browsers beside Safari.
     </style>
     <div id='jxgbox' class='jxgbox jxgnew'></div>
     <script>
+    const board = JXG.JSXGraph.initBoard('jxgbox', { 
+        boundingbox: [-5, 5, 5, -5], axis:true
+    });
     var pol = board.create('polygon', [[-3,-3], [3,-3], [1,4]], {
             fillColor: 'yellow'
     });
     </script>
 ```
+
+See it live at <https://jsfiddle.net/sd0p2a4r/1/>
 
 Another suggestion from the user community is to allow dragging of points outside of the board. This may be useful on mobile devices
 but poses the thread that the dragged point is "lost". To be on the safe side, use it for construction whose
@@ -117,6 +127,8 @@ var circ = board.create('circle', [[-4, 3], 1]);
 var seg = board.create('segment', [[-2, 0], [-2, 4]]);
 ```
 
+See it live at <https://jsfiddle.net/sd0p2a4r/2/>: drag a point outside of the board.
+
 ### Further new features
 
 - There is a new arrow head `type:7` which is especially well suited for curves. The arrow head ends exactly where the curve ends.
@@ -125,8 +137,8 @@ This attribute is new for curves.
 - There are some new math functions: erf, erfc, erfi, ndtr, ndtri, asinh, acosh in JXG.Math available. erf is the error function.
 - Comparisons and logical operators are now available as functions in JXG.Math: lt, gt, leq, geq, eq, neq, and, or, not, xor.
 These functions allow to avoid `<`, `>` and other characters in environments which filter out any occurrence of HTML tags.
-- The attribute `radius` for angles can take the new value `'auto'`.
 - New Boolean method `point.isOn(element)`
+- The attribute `radius` for angles can take the new value `'auto'`.
 - In angles which have been set to fixed value by `angle.setAngle(val)` all three points can now be dragged:
 
 ```javascript
@@ -139,6 +151,7 @@ var angle = board.create('angle', [A, B, C], {radius: 'auto'});
 angle.setAngle(()=>s.Value());
 ```
 
+See it live at <https://jsfiddle.net/sd0p2a4r/3/>.
 To reestablish the old behavior one has to set `isDraggable=false` for the angle point:
 
 ```javascript

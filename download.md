@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version v1.2.3
+subtitle: Latest version v1.3.0
 ---
 
 **JSXGraph** needs two files:
@@ -52,7 +52,6 @@ Download the latest version {{ site.version_number }} from the [JSXGraph home pa
 
 * The JSXGraph source code is hosted on [GitHub](https://github.com/jsxgraph/jsxgraph)
 * [Bug tracker](https://github.com/jsxgraph/jsxgraph/issues)
-* **[JetBrains WebStorm](https://www.jetbrains.com/webstorm/)**: JetBrains supports the development of JSXGraph with free licenses under their Open Source Support Program.
 
 ### Nightly builds
 
