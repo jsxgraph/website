@@ -7,16 +7,18 @@ categories:
   - Releases
 ---
 
+We are happy to be able to announce the release of JSXGraph v1.3.0. This new version
+addresses among other features responsiveness and accessibility.
 
 ### Responsiveness
 
 In version 1.3.0, JSXGraph makes major leaps towards usability in responsive web pages. Following the 
-suggestions by Murray Bourne (see his talk at <http://jsxgraph.org/conf/program/>), 
+suggestions by Murray Bourne (see his talk at <http://jsxgraph.org/conf/program/>),
 JSXGraph recomputes the board's dimensions when the JSXGraph `div` tag is resized.
 This is also the case when the div element's CSS property `display` switches from `none` to `block`.
-Therefore, also the initialisation of JSXgraph boards in dia shows or register tabs should no longer be a problem.
+Therefore, also the initialization of JSXGraph boards in dia shows or register tabs should no longer be a problem.
 No action as to be taken by the developer to make responsiveness available, it is activated automatically.
-This feautrue can be turned off by
+This feature can be turned off by
 
 ```javascript
     var board = JXG.JSXGraph.initBoard('jxgbox', {
@@ -25,11 +27,11 @@ This feautrue can be turned off by
     });
 ```
 
-Here is are two examples how to use JSXGraph such that the ratio between height and width 
-of the JSXGraph div stays constant. This has to be implemented by the developer. There are two 
-possible approaches, one is an old hack, the other is a new CSS feature. 
+Here is are two examples how to use JSXGraph such that the ratio between height and width
+of the JSXGraph div stays constant. This has to be implemented by the developer. There are two
+possible approaches, one is an old hack, the other is a new CSS feature.
 
-1) The first version is an old hack known among CSS developers, see <https://bourne2learn.com/math/jsxgraph/jsxgraph-examples.php>
+1) The first version is a common hack known among CSS developers, see <https://bourne2learn.com/math/jsxgraph/jsxgraph-examples.php>
 for a more detailed explanation:
 
 ```html
@@ -56,7 +58,7 @@ for a more detailed explanation:
     </script>
 ```
 
-2) The second version uses the new CSS property `aspect-ratio`, which is - in August 2021 - supported 
+2) The second version uses the new CSS property `aspect-ratio`, which is - in August 2021 - supported
 by all major browsers beside Safari.
 
 ```html
@@ -92,7 +94,7 @@ Finally, texts support now the attribute `fontUnit` which accepts beside the def
 
 ### Accessibility
 
-Starting with version 1.3.0, JSXgraph can be controlled with the keyboard.
+Starting with version 1.3.0, JSXGraph can be controlled with the keyboard.
 
 - The user can select JSXGraph objects with the `tab` key.
 - Objects can be moved with the arrow keys.
@@ -100,7 +102,7 @@ Starting with version 1.3.0, JSXgraph can be controlled with the keyboard.
 - Further, the step width can be set with `dx` and `dy`.
 - If the user presses the `shift` key the construction is "panned", i.e. the view port is shifted.
 
-```html
+```javascript
 var board = JXG.JSXGraph.initBoard("jxgbox", {boundingbox: [-5,5,5,-5], 
     axis: true, 
     keyboard: {
@@ -118,13 +120,30 @@ var seg = board.create('segment', [[-2, 0], [-2, 4]]);
 ### Further new features
 
 - There is a new arrow head `type:7` which is especially well suited for curves. The arrow head ends exactly where the curve ends.
-- To end a line / curve exactly at its delimiting coordinates, it may be necessary to set the attribute `lineCap:'square'`. 
+- To end a line / curve exactly at its delimiting coordinates, it may be necessary to set the attribute `lineCap:'square'`.
 This attribute is new for curves.
 - There are some new math functions: erf, erfc, erfi, ndtr, ndtri, asinh, acosh in JXG.Math available. erf is the error function.
 - Comparisons and logical operators are now available as functions in JXG.Math: lt, gt, leq, geq, eq, neq, and, or, not, xor.
 These functions allow to avoid `<`, `>` and other characters in environments which filter out any occurrence of HTML tags.
 - The attribute `radius` for angles can take the new value `'auto'`.
-- New boolean method `point.isOn(element)`
+- New Boolean method `point.isOn(element)`
+- In angles which have been set to fixed value by `angle.setAngle(val)` all three points can now be dragged:
+
+```javascript
+var s = board.create('slider', [[1,4], [3,4], [0, Math.PI/2, 2*Math.PI]]);
+var A = board.create('point', [3, 0], {fixed: false});
+var B = board.create('point', [0, 0]);
+var C = board.create('point', [2, 2], {fixed: false});
+
+var angle = board.create('angle', [A, B, C], {radius: 'auto'});
+angle.setAngle(()=>s.Value());
+```
+
+To reestablish the old behavior one has to set `isDraggable=false` for the angle point:
+
+```javascript
+angle.anglepoint.isDraggable = false;
+```
 
 ### Other
 
