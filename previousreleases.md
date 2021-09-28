@@ -6,9 +6,26 @@ subtitle: Dynamic Mathematics with JavaScript
 
 ### From CDN
 
+Available previous JSXGraph versions hosted on **jsdelivr* are:
+
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.3.1/distrib/jsxgraphcore.js>
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.3.0/distrib/jsxgraphcore.js>
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.2.3/distrib/jsxgraphcore.js>
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.2.2/distrib/jsxgraphcore.js>
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.2.1/distrib/jsxgraphcore.js>
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.2.0/distrib/jsxgraphcore.js>
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.1.0/distrib/jsxgraphcore.js>
+
 Available previous JSXGraph versions hosted on **cdnjs** are:
 
-* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.6/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.3.1/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.3.0/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.2.3/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.2.2/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.2.1/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.2.0/jsxgraphcore.js>
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.1.0/jsxgraphcore.js>
+* <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.7/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.4/jsxgraphcore.js>
 * <http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js>
@@ -24,6 +41,15 @@ Available previous JSXGraph versions hosted on **cdnjs** are:
 
 ### From JSXGraph site
 
+* v1.3.1: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.3.1.js>
+* v1.3.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.3.0.js>
+* v1.2.3: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.2.3.js>
+* v1.2.2: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.2.2.js>
+* v1.2.1: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.2.1.js>
+* v1.2.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.2.0.js>
+* v1.1.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.1.0.js>
+* v1.0.0: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.00.0.js>
+* v0.99.7: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.7.js>
 * v0.99.5: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.5.js>
 * v0.99.4: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.4.js>
 * v0.99.3: <http://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-0.99.3.js>

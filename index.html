@@ -6,13 +6,88 @@ subtitle: Dynamic Mathematics with JavaScript
 
 <div class="row">
   <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 jumbotron text-center">
-    <h3>interactive geometry, plotting, visualization</h3>
+    <h3>Interactive geometry, plotting, visualization</h3>
     <p>
         JSXGraph is a cross-browser JavaScript library for interactive geometry,
         function plotting, charting, and data visualization in the web browser.
     </p>
+    <h3>Upcoming events:</h3>
+    <div style="text-align: left;">
+    <ul>
+    <!--
+        <li><strong>Next Webinar:
+            <a href="/wp/2021-06-01-webinar-7/">
+            advanced JSXGraph programming vol 7 (online)
+            </a>:</strong> 9. June 2021, 4 pm CEST (Central European Summer Time, UTC +2)</li>
+        <li><strong>Online Teacher Training Course on Programming JSXGraph</strong> May 26th - June 9th, 2021. <a href="https://forms.gle/gmDg2iqh1MDZM39u8">(free) registration</a></li>
+    -->
+        <li><strong>JSXGraph conference 2021</strong>
+            October 5th - 7th, 2021 (online, free, registration open) <a href="/conf2021/">conference home page</a></li>
+    </ul>
+    </div>
   </div>
 </div>
+
+<div class="row">
+ <!--<div class="col-12 cont">-->
+<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 nopadding text-center">
+  <div class="col-sm-3 col-xs-6 text-center mybox">
+    <!-- <a href="https://jsfiddle.net/dr63zumf/1/" title="jsfiddle"> 0.99.7 -->
+    <!-- <a href="https://jsfiddle.net/8kep9syd/" title="jsfiddle"> 1.00.0 -->
+    <!-- <a href="https://jsfiddle.net/c05b4y9z/" title="jsfiddle"> 1.1.0 -->
+    <!-- <a href="https://jsfiddle.net/pawegrmo/1/" title="jsfiddle"> -->
+    <!-- <a href="https://jsfiddle.net/jerbn76L/" title="jsfiddle"> -->
+    <!-- <a href="https://jsfiddle.net/hzL3qa9d/" title="jsfiddle"> -->
+    <!-- <a href="https://jsfiddle.net/0gmd3awy/" title="jsfiddle"> -->
+    <!-- <a href="https://jsfiddle.net/6w4rnms0/" title="jsfiddle"> -->
+    <a href="https://jsfiddle.net/cvyqzbdw/" title="jsfiddle">
+            <span class="fa-stack fa-lg icon">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-jsfiddle fa-stack-1x fa-inverse"></i>
+      </span>
+    <h4>jsfiddle</h4>
+    get started quickly
+    </a>
+  </div>
+
+  <div class="col-sm-3 col-xs-6 text-center mybox">
+    <a href="https://groups.google.com/forum/#!forum/{{ site.author.googlegroups }}" title="Google groups">
+      <span class="fa-stack fa-lg icon">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+      </span>
+    <h4>Google Groups</h4>
+    structural questions
+    </a>
+  </div>
+
+  <div class="col-sm-3 col-xs-6 text-center mybox">
+    <a href="https://github.com/{{ site.author.github }}" title="GitHub">
+      <span class="fa-stack fa-lg icon">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <h4>GitHub</h4>
+  requests &   bugreports
+    </a>
+  </div>
+
+
+
+  <div class="col-sm-3 col-xs-6 text-center mybox">
+    <a href="https://stackoverflow.com/search?tab=newest&q=jsxgraph" title="StackOverflow">
+      <span class="fa-stack fa-lg icon">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+      </span>
+    <h4>StackOverflow</h4>
+    coding questions
+    </a>
+  </div>
+
+</div>
+</div>
+
 
 <div class="row">
   <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1">
@@ -29,7 +104,7 @@ subtitle: Dynamic Mathematics with JavaScript
     </ul>
     <p>
     JSXGraph is implemented in pure JavaScript, does not rely on any other library,
-    and uses SVG or canvas (or VML on ancient IE browsers).
+    and uses SVG, VML, or canvas.
     Special care has been taken to optimize the performance.
 
 
@@ -56,14 +131,17 @@ subtitle: Dynamic Mathematics with JavaScript
     </p>
   </div>
   <div class="col-lg-4 col-md-4">
-    <div id='box' class='jxgbox' style='width:320px; height:220px;'></div>
+    <div id='box' class='jxgbox' style='width:320px; height:320px;'></div>
     <p><a href="/wiki/index.php/Category:Examples">More examples ...</a></p>
   </div>
 </div> <!-- row -->
+<br>
+
+
 
 <script type='text/javascript'>
 (function(){
-    var brd = JXG.JSXGraph.initBoard('box', {originX: 100, originY: 110, grid:false, unitX: 40, unitY: 40});
+    var brd = JXG.JSXGraph.initBoard('box', {boundingbox: [-3, 3, 3, -3]});
     solveQ2 = function(x1,x2,x3,off) {
         var a, b, c, d;
         a = 0.5;

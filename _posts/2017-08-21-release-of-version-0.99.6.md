@@ -6,8 +6,8 @@ date: 2017-08-21T09:00:00+00:00
 categories:
   - Releases
 ---
-The long awaited version 0.99.6 of JSXGraph has just been released!
-There are quite a few new features which are - hopefully - appreciated by the users.
+The long awaited version 0.99.6 of JSXGraph has just been released! This is a 
+There are quite a few new features which are - hopefully -
 
 The most noteable new features are:
 
@@ -26,12 +26,12 @@ We thank all contributors which supplied patches, bug reports and suggestions fo
 For a full list of all changes see the [CHANGELOG](https://github.com/jsxgraph/jsxgraph/blob/master/CHANGELOG.md).
 
 Enjoy, Alfred
-
+    
 ## Examples for the new features
 
 ### New board attributes
 
-When creating a new `board`, the attributes `showZoom` and `showNavigation` control the visibility of
+When creating a new `board`, the attributes `showZoom` and `showNavigation` control the visibility of 
 the zoom and navigation icons in the lower right corner.
 Further with the `zoom` and `pan` objects zooming and panning behaviour can be better controlled:
 
@@ -114,16 +114,16 @@ Sliders can have (correct) ticks labels now, and the display of the value compos
 
 {% highlight javascript linenos %}
     var board = JXG.JSXGraph.initBoard('box', {
-        boundingbox: [-5, 5, 5, -5],
+        boundingbox: [-5, 5, 5, -5], 
     });
     var sl = board.create('slider', [[-4,1], [2,1], [-10, 1, 10]], {
-        name:'a',
+        name:'a', 
         suffixLabel: 'A = ',
         unitLabel: 'm',
         postLabel: ' !!!',
-        withLabel: true,
-        ticks: {
-            drawLabels: true,
+        withLabel: true, 
+        ticks: { 
+            drawLabels: true, 
         }});
     })();
 {% endhighlight %}
@@ -132,16 +132,16 @@ Sliders can have (correct) ticks labels now, and the display of the value compos
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box13', {
-        boundingbox: [-5, 5, 5, -5],
+        boundingbox: [-5, 5, 5, -5], 
     });
     var sl = board.create('slider', [[-4,1], [2,1], [-10, 1, 10]], {
-        name:'a',
+        name:'a', 
         suffixLabel: 'A = ',
         unitLabel: 'm',
         postLabel: ' !!!',
-        withLabel: true,
-        ticks: {
-            drawLabels: true,
+        withLabel: true, 
+        ticks: { 
+            drawLabels: true, 
         }});
     })();
 </script>
@@ -151,7 +151,7 @@ Sliders can have (correct) ticks labels now, and the display of the value compos
 With the `anchor` attribute, relative positions other than the middle position are possible.
 {% highlight javascript linenos %}
     var board = JXG.JSXGraph.initBoard('box', {
-        boundingbox: [-5, 5, 5, -5],
+        boundingbox: [-5, 5, 5, -5], 
     });
     var p = board.create('point', [-4, 0]);
     var q = board.create('point', [4, 0]);
@@ -164,7 +164,7 @@ With the `anchor` attribute, relative positions other than the middle position a
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box14', {
-        boundingbox: [-5, 5, 5, -5],
+        boundingbox: [-5, 5, 5, -5], 
     });
     var p = board.create('point', [-4, 0]);
     var q = board.create('point', [4, 0]);
@@ -199,7 +199,7 @@ The `cssStyle` attributes allow a flexible styling of texts and images in enviro
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box12', {
-        boundingbox: [-5, 5, 5, -5],
+        boundingbox: [-5, 5, 5, -5], 
     });
     var txt = board.create('text', [0, 0, 'hello'], {cssStyle: 'padding: 5px; border: 1px solid orange; border-radius: 5px'});
 })();
@@ -220,7 +220,7 @@ The `cssStyle` attributes allow a flexible styling of texts and images in enviro
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box11', {
-        boundingbox: [-5, 5, 5, -5],
+        boundingbox: [-5, 5, 5, -5], 
         keepaspectratio:true
     });
     var im1 = board.create('image', ['/wp/img/perched_birds.jpg', [0, 0], [2, 2]], {dragToTopOfLayer: true});
@@ -230,8 +230,8 @@ The `cssStyle` attributes allow a flexible styling of texts and images in enviro
 
 ### Visvalingam-Whyatt algorithm for curve simplification
 
-See Visvalingam, M; Whyatt, JD (1992).
-*Line Generalisation by Repeated Elimination of the Smallest Area* (Technical report).
+See Visvalingam, M; Whyatt, JD (1992). 
+*Line Generalisation by Repeated Elimination of the Smallest Area* (Technical report). 
 Discussion Paper. Cartographic Information Systems Research Group (CISRG), The University of Hull. 10.
 
 {% highlight javascript linenos %}
@@ -245,7 +245,7 @@ Discussion Paper. Cartographic Information Systems Research Group (CISRG), The U
         name:'a', withLabel: true
     });
 
-
+    
     var splineArr = JXG.Math.Numerics.CardinalSpline(p, function(){ return sl.Value(); });
     var cu2 = board.create('curve', splineArr, {strokeColor: 'orange', strokeWidth:4});
 
@@ -273,7 +273,7 @@ Discussion Paper. Cartographic Information Systems Research Group (CISRG), The U
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box9', {
-        boundingbox: [-10, 10, 10, -10],
+        boundingbox: [-10, 10, 10, -10], 
         keepaspectratio:true
     });
 
@@ -287,7 +287,7 @@ Discussion Paper. Cartographic Information Systems Research Group (CISRG), The U
         name:'a', withLabel: true
     });
 
-
+    
     var splineArr = JXG.Math.Numerics.CardinalSpline(p, function(){ return sl.Value(); });
     var cu2 = board.create('curve', splineArr, {strokeColor: 'orange', strokeWidth:4});
 
@@ -325,20 +325,20 @@ for (i = 0; i < 5; ++i) {
 }
 
 var sl = board.create('slider', [[-8,9], [6,9], [-0.5, 1.3, 1.5]], {
-    name:'a',
-    withLabel: true,
-    ticks: {
-        drawLabels: true,
+    name:'a', 
+    withLabel: true, 
+    ticks: { 
+        drawLabels: true, 
         minTicksDistance: 30
     }
 });
 
-var cu2 = board.create('curve',
-    JXG.Math.Numerics.CardinalSpline(p, function(){ return sl.Value(); }),
+var cu2 = board.create('curve', 
+    JXG.Math.Numerics.CardinalSpline(p, function(){ return sl.Value(); }), 
     { strokeColor: 'green', strokeWidth:2}
 );
-var cu3 = board.create('curve',
-    JXG.Math.Numerics.CardinalSpline(p, function(){ return sl.Value(); }, 'centripetal'),
+var cu3 = board.create('curve', 
+    JXG.Math.Numerics.CardinalSpline(p, function(){ return sl.Value(); }, 'centripetal'), 
     { strokeWidth:2}
 );
 {% endhighlight %}
@@ -347,7 +347,7 @@ var cu3 = board.create('curve',
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box10', {
-        boundingbox: [-10, 10, 10, -10],
+        boundingbox: [-10, 10, 10, -10], 
         keepaspectratio:true
     });
 
@@ -385,7 +385,7 @@ This is useful for very thick lines. Possible values are `butt` (default), `roun
 <script type="text/javascript">
 (function() {
     var board = JXG.JSXGraph.initBoard('box8', {
-        boundingbox: [-0.5,2.5,2.5,-0.5],
+        boundingbox: [-0.5,2.5,2.5,-0.5], 
         keepaspectratio:true});
     var pol = board.create('polygon',[[0,0],[2,0],[2,2],[0,2]], {
         hasInnerPoints: true,
@@ -402,7 +402,7 @@ This is useful for very thick lines. Possible values are `butt` (default), `roun
 </script>
 
 ### Allow functions as values for attribute visible and introduce new value 'inherit'</h2>
-
+    
 Here is an example: if the x-coordinate of `A` is positive, the point `B` is hidden.
 
 {% highlight javascript linenos %}
@@ -508,8 +508,8 @@ var txt = board.create('text', [1, 1, function() {
 
 ### Arrows
 
-In this release we have three types of arrows. All types may be scaled by the
-attribute `size` which defaults to 3.
+In this release we have three types of arrows. All types may be scaled by the 
+attribute `size` which defaults to 3. 
 
 {% highlight javascript linenos %}
     var s1 = board.create('segment', [[-2, 4], [2, 4]], {
@@ -585,9 +585,9 @@ attribute `size` which defaults to 3.
 ### Symbolic differentiation
 
 This is a very preliminary new feature in JessieCode.
-Symbolic differentiation is fully implemented (which is easy). But it is not very usefull without a good term simplification algorithm.
+Symbolic differentiation is fully implemented (which is easy). But it is not very usefull without a good term simplification algorithm. 
 We do have term simplification in JessieCode, but this is not very sophisticated and can be much improved.
-
+    
 {% highlight html linenos %}
 <div id="box15" class="jxgbox" style="width:500px; height:500px;"></div>
 <textarea id="input_code" cols="50" rows="5" style="float:none;">
@@ -595,7 +595,7 @@ f = map (x) -> x^2;
 h = D(f, x);
 </textarea>
 <div style="">
-    <p><button id="reset">Reset board</button>
+    <p><button id="reset">Reset board</button> 
     <button id="parse">Simplify code</button></p>
 </div>
 <textarea id="output_code" cols="50" rows="5" style="float:left;">
@@ -606,7 +606,7 @@ h = D(f, x);
     var board,
         init = function () {
             board = JXG.JSXGraph.initBoard('box15', {
-                boundingbox: [-5, 5, 5, -5],
+                boundingbox: [-5, 5, 5, -5], 
                 axis:true
             });
             board.jc = new JXG.JessieCode();
@@ -639,7 +639,7 @@ f = map (x) -> x^2;
 h = D(f, x);
 </textarea>
 <div style="">
-    <p><button id="reset">Reset board</button>
+    <p><button id="reset">Reset board</button> 
     <button id="parse">Simplify code</button></p>
 </div>
 <textarea id="output_code" cols="50" rows="5" style="float:left;">
@@ -651,7 +651,7 @@ h = D(f, x);
     var board,
         init = function () {
             board = JXG.JSXGraph.initBoard('box15', {
-                boundingbox: [-5, 5, 5, -5],
+                boundingbox: [-5, 5, 5, -5], 
                 axis:true
             });
             board.jc = new JXG.JessieCode();
