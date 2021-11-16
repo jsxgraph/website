@@ -187,7 +187,7 @@ for (<assignment>; <expression>; <assignment>) {
 | V(s)               | Returns the value of the given element, e.g. sliders and angles. |
 | L(s)               | Calculates the length of the given segment.                      |
 | X(P) Y(P)          | Returns the x resp. y coordinate of the given point.             |
-| area(o)            | Compute the area of a circle or polygon.                         |
+| area(o), A(o)      | Compute the area of a circle or polygon.                         |
 | dist(P, Q)         | Compute the distance of two points.                              |
 | deg(A, B, C)       | Calculate the angle of three points in degree.                   |
 | rad(A, B, C)       | Calculate the angle of three points in rad.                      |
