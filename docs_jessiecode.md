@@ -173,7 +173,7 @@ for (<assignment>; <expression>; <assignment>) {
 | min(a, b, c, \...) | Minimum value of all given values.                               |
 | exp(x)             | EULER to the x                                                   |
 | atan2(y, x)        | Returns the arctangent of the quotient of its arguments.         |
-| random(max = 1)    | Generate a random number between 0 and max.                      |
+| random()           | Generate a random number between 0 and 1.                      |
 | round(v)           | Returns the value of a number rounded to the nearest integer.    |
 | floor(x)           | Returns the biggest integer n with n \< x.                       |
 | acos(x)            | arccosine of x                                                   |
