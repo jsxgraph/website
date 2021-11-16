@@ -186,7 +186,7 @@ for (<assignment>; <expression>; <assignment>) {
 | trunc(v, p = 0)    | Truncate v after the p-th decimal.                               |
 | V(s)               | Returns the value of the given element, e.g. sliders and angles. |
 | L(s)               | Calculates the length of the given segment.                      |
-| X(P) Y(P)          | Returns the x resp. y coordinate of the given point.             |
+| X(P), Y(P)          | Returns the x resp. y coordinate of the given point.             |
 | area(o), A(o)      | Compute the area of a circle or polygon.                         |
 | dist(P, Q)         | Compute the distance of two points.                              |
 | radius(o), R(o)    | Compute the radius of a circle or sector.                        |
