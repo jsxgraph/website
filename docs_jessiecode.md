@@ -192,6 +192,7 @@ for (<assignment>; <expression>; <assignment>) {
 | radius(o), R(o)    | Compute the radius of a circle or sector.                        |
 | deg(A, B, C)       | Calculate the angle of three points in degree.                   |
 | rad(A, B, C)       | Calculate the angle of three points in rad.                      |
+| getName(o, useId = false) | Return the name ob an object. If no name is given an useId is true the id is returned. |
 | \$(id)             | Look up the element to the given element id.                     |
 
 ### \$board methods
