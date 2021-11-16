@@ -174,7 +174,7 @@ for (<assignment>; <expression>; <assignment>) {
 | exp(x)             | EULER to the x                                                   |
 | atan2(y, x)        | Returns the arctangent of the quotient of its arguments.         |
 | random()           | Generate a random number between 0 and 1.                        |
-| randint(min,max,step = 1) | Generate a random number between min and max in steps step.  |
+| randint(min, max, step = 1) | Generate a random number between min and max in steps step. |
 | round(v)           | Returns the value of a number rounded to the nearest integer.    |
 | floor(x)           | Returns the biggest integer n with n \< x.                       |
 | acos(x)            | arccosine of x                                                   |
@@ -189,6 +189,7 @@ for (<assignment>; <expression>; <assignment>) {
 | X(P) Y(P)          | Returns the x resp. y coordinate of the given point.             |
 | area(o), A(o)      | Compute the area of a circle or polygon.                         |
 | dist(P, Q)         | Compute the distance of two points.                              |
+| radius(o), R(o)    | Compute the radius of a circle or sector.                        |
 | deg(A, B, C)       | Calculate the angle of three points in degree.                   |
 | rad(A, B, C)       | Calculate the angle of three points in rad.                      |
 | \$(id)             | Look up the element to the given element id.                     |
