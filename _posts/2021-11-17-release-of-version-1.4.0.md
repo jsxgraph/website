@@ -40,7 +40,7 @@ See also <https://davidmathlogic.com/colorblind/>,
 If you want to restore the old colors, call `JXG.setClassicColors()` before initializing any board.
 
 Further improvements include better keyboard interaction, extended API documentation with many new examples, and much smoother
-handling of two finger touches on touch devices.
+handling of two finger touches on touch devices. In JessieCode, a security hole in text elements has been fixed.
 
 Beside fixing quite a few bugs, also the JSXGraph ecosystem has been overhauled:
 The NPM dependencies for development of JSXGraph have been much reduced, Travis testing has been reestablished and
