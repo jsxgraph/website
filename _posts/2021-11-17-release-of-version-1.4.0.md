@@ -2,7 +2,7 @@
 layout: post
 title: Release of 1.4.0
 subtitle: Major new release
-date: 2021-12-17T09:00:00+00:00
+date: 2021-11-17T09:00:00+00:00
 categories:
   - Releases
 ---
@@ -42,9 +42,9 @@ If you want to restore the old colors, call `JXG.setClassicColors()` before init
 Further improvements include better keyboard interaction, extended API documentation with many new examples, and much smoother
 handling of two finger touches on touch devices.
 
-Beside fixing quite a few bugs, also the the JSXGraph ecosystem has been overhauled:
+Beside fixing quite a few bugs, also the JSXGraph ecosystem has been overhauled:
 The NPM dependencies for development of JSXGraph have been much reduced, Travis testing has been reestablished and
-unit testing has been reactivated. Now, we use Karma and Jasmine.
+unit testing has been reactivated. Now, we use Karma and Jasmine. Developers may try it out by calling `make test`.
 
 Enjoy,
 
