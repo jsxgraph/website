@@ -7,7 +7,7 @@ categories:
   - Releases
 ---
 
-We are happy to be able to announce the release of JSXGraph v1.3.0. This new version
+We are happy to be able to announce the release of JSXGraph v1.4.0. This new version
 brings several new elements and methods, as well as many improvements and bug fixes.
 
 The new element `foreignobject` (also available with the shortcut `fo`) allows to
