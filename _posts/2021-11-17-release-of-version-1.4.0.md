@@ -43,8 +43,8 @@ Further improvements include better keyboard interaction, extended API documenta
 handling of two finger touches on touch devices.
 
 Beside fixing quite a few bugs, also the the JSXGraph ecosystem has been overhauled:
-The npm dependencies for development of JSXGraph have been much reduced, Travis testing has been reestablished and
-unit testing has been reacivated. Now, we use Karma and Jasmine.
+The NPM dependencies for development of JSXGraph have been much reduced, Travis testing has been reestablished and
+unit testing has been reactivated. Now, we use Karma and Jasmine.
 
 Enjoy,
 
