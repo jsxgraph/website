@@ -162,7 +162,7 @@ for (<assignment>; <expression>; <assignment>) {
 | log2(x), lb(x)     | Logarithm to base 2                                              |
 | log10(x), ld(x)    | Logarithm to base 10                                             |
 | tan(x)             | Tangent of x                                                     |
-| cot(x)             | Cotangent of x                                                     |
+| cot(x)             | Cotangent of x                                                   |
 | sqrt(x)            | Square root of x                                                 |
 | cbrt(x)            | Cube root of x                                                   |
 | nthroot(x)         | n-th root of x                                                   |
@@ -173,22 +173,26 @@ for (<assignment>; <expression>; <assignment>) {
 | min(a, b, c, \...) | Minimum value of all given values.                               |
 | exp(x)             | EULER to the x                                                   |
 | atan2(y, x)        | Returns the arctangent of the quotient of its arguments.         |
-| random(max = 1)    | Generate a random number between 0 and max.                      |
+| random()           | Generate a random number between 0 and 1.                        |
+| randint(min, max, step = 1) | Generate a random number between min and max in steps step. |
 | round(v)           | Returns the value of a number rounded to the nearest integer.    |
 | floor(x)           | Returns the biggest integer n with n \< x.                       |
 | acos(x)            | arccosine of x                                                   |
 | atan(x)            | arctangent of x                                                  |
-| acot(x)            | arccotangent of x                                                  |
+| acot(x)            | arccotangent of x                                                |
 | sin(x)             | sine of x                                                        |
 | sinh(x)            | Hyperbolic sine of x                                             |
 | factorial(n)       | Calculates n!                                                    |
 | trunc(v, p = 0)    | Truncate v after the p-th decimal.                               |
 | V(s)               | Returns the value of the given element, e.g. sliders and angles. |
 | L(s)               | Calculates the length of the given segment.                      |
-| X(P) Y(P)          | Returns the x resp. y coordinate of the given point.             |
+| X(P), Y(P)          | Returns the x resp. y coordinate of the given point.             |
+| area(o), A(o)      | Compute the area of a circle or polygon.                         |
 | dist(P, Q)         | Compute the distance of two points.                              |
+| radius(o), R(o)    | Compute the radius of a circle or sector.                        |
 | deg(A, B, C)       | Calculate the angle of three points in degree.                   |
 | rad(A, B, C)       | Calculate the angle of three points in rad.                      |
+| getName(o, useId = false) | Return the name of an object. If no name is given an useId is true the id is returned. |
 | \$(id)             | Look up the element to the given element id.                     |
 
 ### \$board methods
