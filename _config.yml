@@ -22,6 +22,9 @@ version_number: 1.4.2
 # Short description of your site
 description: Interactive Geometry, plotting, visualization
 
+plugins:
+  - jekyll-paginate
+
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
