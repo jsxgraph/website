@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version v1.4.2
+subtitle: Latest version v1.4.3
 ---
 
 **JSXGraph** needs two files:
 
-1. Link the file `jsxgraphcore.js` into your web pages. This file has been minified using the UglifyJS compressor. `jsxgraphcore.js` contains the complete source code of JSXGraph bundled in one file. All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no global variables.
+1. Link the file `jsxgraphcore.js` into your web pages. This file has been minified using the terser compressor. `jsxgraphcore.js` contains the complete source code of JSXGraph bundled in one file. All objects of JSXGraph use the namespace `JXG`. Beside `JXG` there are no global variables.
 2. Include the css commands from `jsxgraph.css` into the web pages. It can be downloaded from <https://jsxgraph.org/distrib/jsxgraph.css> or from <https://github.com/jsxgraph/jsxgraph>.
 
 ### CDN
