@@ -12,7 +12,7 @@ contains multiple improvements in index.d.ts for TypeScript support.
 Other bug fixes can be seen in the CHANGELOG.
 
 Additionally, this release contains preliminary, experimental support of 3D elements. 
-See the examples in <ttps://jsxgraph.uni-bayreuth.de/~alfred/jsxdev/3D/> for a first preview. 
+See the examples in <https://jsxgraph.uni-bayreuth.de/~alfred/jsxdev/3D/> for a first preview. 
 A detailed blog post on the will follow [here](https://jsxgraph.org/wp/blog/). 
 Please, do not yet use 3D elements in production, the API may still change.
 
