@@ -8,6 +8,7 @@ subtitle: Dynamic Mathematics with JavaScript
 
 Available previous JSXGraph versions hosted on **jsdelivr* are:
 
+* <https://cdn.jsdelivr.net/npm/jsxgraph@1.4.4/distrib/jsxgraphcore.js>
 * <https://cdn.jsdelivr.net/npm/jsxgraph@1.4.3/distrib/jsxgraphcore.js>
 * <https://cdn.jsdelivr.net/npm/jsxgraph@1.4.2/distrib/jsxgraphcore.js>
 * <https://cdn.jsdelivr.net/npm/jsxgraph@1.4.1/distrib/jsxgraphcore.js>
