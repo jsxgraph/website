@@ -6,7 +6,7 @@ subtitle: Dynamic Mathematics with JavaScript
 
 ### From CDN
 
-Available previous JSXGraph versions hosted on **jsdelivr* are:
+Available previous JSXGraph versions hosted on *jsdelivr* are:
 
 * <https://cdn.jsdelivr.net/npm/jsxgraph@1.4.4/distrib/jsxgraphcore.js>
 * <https://cdn.jsdelivr.net/npm/jsxgraph@1.4.3/distrib/jsxgraphcore.js>
@@ -24,6 +24,7 @@ Available previous JSXGraph versions hosted on **jsdelivr* are:
 
 Available previous JSXGraph versions hosted on **cdnjs** are:
 
+* <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.4.4/jsxgraphcore.js>
 * <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.4.3/jsxgraphcore.js>
 * <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.4.2/jsxgraphcore.js>
 * <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.4.1/jsxgraphcore.js>
@@ -52,7 +53,8 @@ Available previous JSXGraph versions hosted on **cdnjs** are:
 
 ### From JSXGraph site
 
-* v1.4.2: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.4.3.js>
+* v1.4.4: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.4.4.js>
+* v1.4.3: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.4.3.js>
 * v1.4.2: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.4.2.js>
 * v1.4.1: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.4.1.js>
 * v1.4.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.4.0.js>
