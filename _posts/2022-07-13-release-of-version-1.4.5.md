@@ -1,3 +1,12 @@
+---
+layout: post
+title: Release of 1.4.5
+subtitle: Patch release
+date: 2022-07-13T13:00:00+00:00
+categories:
+  - Releases
+---
+
 JSXGraph release v1.4.5 is a patch release, which additionally introduces two new features. 
 First, geometry elements have now the new attribute `rotatable`. If set to false, the element can not
 be rotated with two fingers on touch devices. The other new feature is the new method `setPosition3D` 
