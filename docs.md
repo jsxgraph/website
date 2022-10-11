@@ -66,9 +66,11 @@ The 1st international JSXGraph conference was held online in October 2020.
 
 ## 2nd international JSXGraph conference (2021)
 
-October 5th - 7th, 2021 (online, free, registration open) 
+October 5th - 7th, 2021, [conference home page](https://jsxgraph.org/conf2021)
 
-* [Conference home page](https://jsxgraph.org/conf2021)
+## 3rd international JSXGraph conference (2022)
+
+October 4th - 6th, 2022, [conference home page](https://jsxgraph.org/conf2022)
 
 ## Support
 
