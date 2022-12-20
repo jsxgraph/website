@@ -156,6 +156,25 @@ onmessage = (e) => {
 };
 ```
 
+__Update__ (20.12.2022)
+
+6) JSXGraph can be included as __npm package__:
+
+First install the npm package `jsxgraph`:
+
+```.bash
+# Official release:
+npm install jsxgraph 
+
+# Release candidate:
+npm install jsxgraph@next
+```
+
+Use JSXGraph in your JavaScript project:
+
+```.javascript
+import JXG from 'jsxgraph';
+```
 
 
 Enjoy and thanks a lot in advance,
