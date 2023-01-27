@@ -2,63 +2,69 @@
 layout: post
 title: Release of 1.5.0
 subtitle: Major new release
-date: 2024-01-27T07:00:00+00:00
+date: 2023-01-27T07:00:00+00:00
 categories:
   - Releases
 ---
 
 Dear friends of JSXGraph,
 
-We are happy to be able to announce the release of JSXGraph v1.5.0. 
+We are happy to announce the release of JSXGraph v1.5.0. 
 
-With this release, JSXGraph got a major face lift: Github user #sritchie ported the JSXGraph
-source code from AMD to ES6 imports. This will make JSXGraph ready for the future!
+With this release, JSXGraph got a major face lift: Github user [#sritchie](https://github.com/sritchie) ported the JSXGraph
+source code from AMD to ES6 imports. Thanks also to [#geometryzen](https://github.com/geometryzen) for the extensive contributions 
+and to all who helped in improving JSXGraph. This will make JSXGraph ready for the future!
 What does these changes mean for users of JSXGraph? Hopefully nothing, beside that
 JSXGraph is now running again in various environments like nodejs and as a webworker.
+Changes might be necessary is JSXGraph source is used for granular packaging.
+Please, get in contact with the developers if you experience incompatibilities.
 See below for the various possibilities how to include JSXGraph in your project.
 
-### API change in JSXCompressor. 
-    Old: `JXG.decompress` New: `JSXCompressor.default.decompress`
 
-### New attributes `majorTickEndings`, `ignoreInfiniteTickEndings`
+For the new features in JSXGraph, the new attributes `majorTickEndings` and `ignoreInfiniteTickEndings` 
+allow to restrict major ticks to certain quadrants, see the [API doc](https://jsxgraph.org/docs/symbols/Ticks.html#majorTickEndings).
 
-### New math class Mat.Heap
+For use on mobile devices, the new browser attribute `browserPan` ([API doc](https://jsxgraph.org/docs/symbols/JXG.Board.html#browserPan)) enables user to swipe the page also by tapping on a JSXGraph board. Please, be aware to tap twice on the board until the swiping starts.
 
-### New board attribute `browserPan`: allows to scroll web page by swiping in JSXGraph board
+In order to make constructions more colorful, individual shadow types can be set for stroke elements by the new attribute `shadow`.
+It is possible to adjust the parameters `color`, `opacity`, `blur` and `offset` see 
+[API doc](https://jsxgraph.org/docs/symbols/JXG.GeometryElement.html#shadow) and the [new examples database](https://jsxgraph.org/share/example/shadows).
 
-### New element attribute `shadow`
+There is also a change in the keyboard event handling: `drag` and `move` events are triggered and there are the new events
+`keymove` for the board and `keydrag` for elements.
 
-Individual shadows for each stroke element (in SVG) are possible now
+A user request was to make the size of a JSXGraph adjustable in fullscreen mode. This is possible with the new
+board attribute `fullscreen{ scale: 0.85 }`, see [API doc](https://jsxgraph.org/docs/symbols/JXG.Board.html#fullscreen).
 
-### New events for keyboad handling:
-    - keymove for board
-    - keydrag for elements
+A new experimental board attribute is `logging`,([API doc](https://jsxgraph.org/docs/symbols/JXG.Board.html#logging)). 
+By default, it is disabled. If enabled, user activity is logged in the board object `userLog`.
+At the time being, only `drag` events are logged, see this [example](https://jsxgraph.org/share/example/logging-of-user-activity).
 
-### New board attribute `fullscreen{ scale: 0.85 }`
+The new element attribute `transitionProperties` together with `transitionDuration` enables (in SVG) more flexible transitions and even animations.
+See [this example](https://jsxgraph.org/share/example/animation-using-css-transitions) as an initial step to use CSS transitions for animations.
 
-### New board attribute `logging`: enables logs of user activity
+The most notable further improvements are
 
-### New attribute `transitionProperties`: 
-
-Enables more flexible transitions and even animations
-
-### Further improvements
-
-- Bounding box is now stable during repeated orientation changes 
-- New attributes `distanceX` and `distanceY` for `infobox` element
-- New turtle methods: `getPenColor`, `getHighlightPenColor`, `getPenSize`
-- Improved shadowDOM support
-- Improved browserless support
-- Click on slider triggers 'drag' event
-- Add dependence on elements when creating JessieCode function
-- startAnimation: allow functions as parameters
-- Ecosystem overhauled: no dependency on the `canvas` package anymore
-- New point faces `|` ('divide') and `-` ('minus')
+- the bounding box is now stable even during repeated orientation changes of a mobile device
+- The `infobox` element received the new attributes `distanceX` and `distanceY`.
+- Click on sliders triggers now `drag` events
+- There are new turtle methods `getPenColor`, `getHighlightPenColor`, and `getPenSize`
+- *shadowDOM* and *browserless* support has been improved
+- Elements which are used in JessieCode functions to create an element are automatically marked as parents. This is of relevance hen the parent element is removed.
+- The method `startAnimation` allows functions as parameters
+- There are the new point faces `|` ('divide') and `-` ('minus')
 - Some speed improvements
+- Version 1.5.0 comes with an __API change__ in the side project *JSXCompressor* for deflating zipped data. Here you have to replace 
+`JXG.decompress` by `JSXCompressor.default.decompress`. See the folder JSXCompressor in the JSXGraph github repository for examples.
 
-Enjoy and thanks a lot in advance,
+Last but not least, the JSXGraph ecosystem has been overhauled. Among many other changes, the annoying dependence on the `canvas` package is now removed. 
+As always, a more complete overview of the changes is in the [CHANGELOG](https://github.com/jsxgraph/jsxgraph/blob/main/CHANGELOG.md).
 
-Alfred
+Again, thanks to all contributors who helped to improve JSXGraph!
+
+Enjoy,
+
+Matthias Ehmann, Michael Gerhäuser, Carsten Miller, Andreas Walter, and Alfred Wassermann
 
 
 ## How to include JSXGraph
@@ -246,7 +252,7 @@ onmessage = (e) => {
 8) ES6 __`import`__ of the source code. This is interesting for JSXGraph developers and if you do your
 own granular packaging of JSXGraph modules.
 
-However, this import is not compatible to the previous impoirt of AMD modules. Please, get in contact with the
+However, this import is not compatible to the previous import of AMD modules. Please, get in contact with the
 developers if you experience incompatibilities.
 
 ```.javascript
