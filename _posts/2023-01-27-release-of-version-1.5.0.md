@@ -11,8 +11,8 @@ Dear friends of JSXGraph,
 
 We are happy to announce the release of JSXGraph v1.5.0. 
 
-With this release, JSXGraph got a major face lift: Github user [#sritchie](https://github.com/sritchie) ported the JSXGraph
-source code from AMD to ES6 imports. Thanks also to [#geometryzen](https://github.com/geometryzen) for the extensive contributions 
+With this release, JSXGraph got a major face lift: Github user [@sritchie](https://github.com/sritchie) ported the JSXGraph
+source code from AMD to ES6 imports. Thanks also to [@geometryzen](https://github.com/geometryzen) for the extensive contributions 
 and to all who helped in improving JSXGraph. This will make JSXGraph ready for the future!
 What does these changes mean for users of JSXGraph? Hopefully nothing, beside that
 JSXGraph is now running again in various environments like nodejs and as a webworker.
