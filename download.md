@@ -37,8 +37,20 @@ or
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/{{ site.version_number }}/jsxgraph.css" />
 ```
 
+### ES6 import
+
+Importing JSXGraph as ES6 module is possible with the file `jsxgraphcore.mjs`:
+
+```html
+<script type="module">
+import JXG from 'https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.mjs';
+</script>
+```
+
+
 ### JSXGraph site
-Download the latest version {{ site.version_number }} from the [JSXGraph home page](https://jsxgraph.org/distrib/jsxgraphcore.js)
+Download the latest version {{ site.version_number }} from the JSXGraph home page: [js file](https://jsxgraph.org/distrib/jsxgraphcore.js),
+[mjs file](https://jsxgraph.org/distrib/jsxgraphcore.mjs)
 
 
 ### Plug-ins
