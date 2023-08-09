@@ -7,7 +7,9 @@ categories:
   - Releases
 ---
 
-We are thrilled to announce the release of JSXGraph v1.6.0.
+Dear friends of JSXGraph,
+
+we are thrilled to announce the release of JSXGraph v1.6.0.
 
 New in this release are the long-awaited new elements `vectorfield` and `slopefield`, as well as the new element `smartlabel` for measurements. A big change is the support of *Internationalization*, specifically the possibility to format numbers according to a locale. This affects axis labels, measurements, info box and general texts consisting of numbers.
 
