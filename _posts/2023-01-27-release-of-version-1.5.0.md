@@ -85,7 +85,7 @@ In the following the various possibilities how to include JSXGraph are described
 </head>
 <body>
 <div id="jxgbox" class="jxgbox" style="width:600px; height:600px;"> </div>
-<script>    import JXG from 'path-to-src/index.js';
+<script>
     var board = JXG.JSXGraph.initBoard('jxgbox', { 
         boundingbox: [-5, 5, 5, -5], axis:true
     });
