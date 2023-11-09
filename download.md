@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version v1.6.1
+subtitle: Latest version v1.6.2
 ---
 
 **JSXGraph** needs two files:
@@ -11,7 +11,7 @@ subtitle: Latest version v1.6.1
 
 ### CDN
 
-The easiest way to use JSXGraph is to link directly to the public installation available through a Content Distribution Network (CDN). 
+The easiest way to use JSXGraph is to link directly to the public installation available through a Content Distribution Network (CDN).
 Put one of the following code snippets into the `<head>` block of your document:
 
 ```html
