@@ -3,6 +3,43 @@ layout: page
 title: Docs
 subtitle: Dynamic Mathematics with JavaScript
 ---
+
+## Minimal example
+
+- Load JSXGraph from <https://jsdelivr.com>
+- Optionally, include MathJax
+
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>JSXGraph template</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js" type="text/javascript" charset="UTF-8"></script>
+
+    <!-- The next line is optional: load MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+  </head>
+  <body>
+
+  <div id="jxgbox" class="jxgbox" style="width:500px; height:200px;"></div>
+
+  <script>
+    var board = JXG.JSXGraph.initBoard('jxgbox', {
+            boundingbox: [-5, 2, 5, -2],
+            axis:true
+        });
+    var fun = board.create('functiongraph', ['sin(x)']);
+  </script>
+
+  </body>
+</html>
+```
+
+See it in action at <https://jsxgraph.org/wiki/index.php?title=Function_graph>.
+
 ## API reference and examples
 
 * [API reference](/docs/index.html)

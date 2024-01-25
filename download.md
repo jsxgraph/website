@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version v1.6.2
+subtitle: Latest version v1.7.0
 ---
 
 **JSXGraph** needs two files:
@@ -54,11 +54,11 @@ Download the latest version {{ site.version_number }} from the JSXGraph home pag
 
 
 ### Plug-ins
-* [JSXGraph plug-in for Moodle](https://github.com/jsxgraph/moodle-jsxgraph-plugin)
-* [JSXGraph MediaWiki extension](https://www.mediawiki.org/wiki/Extension:JSXGraph){:target="_blank"}
-* [JSXGraph plug-in for WordPress](https://wordpress.org/extend/plugins/jsxgraph){:target="_blank"}
-* [JSXGraph plug-in for Drupal](https://drupal.org/project/jsxgraph){:target="_blank"}
-* [Online script to create JSXGraph HTML pages from GEONExT files](http://did.mat.uni-bayreuth.de/~matthias/jsxgraph/creator){:target="_blank"}
+
+- [JSXGraph plug-in for Moodle](https://github.com/jsxgraph/moodle-jsxgraph-plugin)
+- [JSXGraph MediaWiki extension](https://github.com/jsxgraph/jsxgraph){:target="_blank"}
+- [JSXGraph plug-in for WordPress](https://wordpress.org/extend/plugins/jsxgraph){:target="_blank"}
+- [JSXGraph plug-in for Drupal](https://drupal.org/project/jsxgraph){:target="_blank"}
 
 ### Source code
 
