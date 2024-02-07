@@ -109,6 +109,10 @@ October 5th - 7th, 2021, [conference home page](https://jsxgraph.org/conf2021)
 
 October 4th - 6th, 2022, [conference home page](https://jsxgraph.org/conf2022)
 
+## 4th international JSXGraph conference (2023)
+
+October 10th - 12th, 2023, [conference home page](https://jsxgraph.org/conf2023)
+
 ## Support
 
 #### Coding help
