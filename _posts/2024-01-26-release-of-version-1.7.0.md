@@ -41,7 +41,7 @@ The __mathematical foundation__ of JSXGraph is extended by several new functions
 
 - `JXG.Math.Numerics.polzeros`: computes all zeros (including the complex ones) of a polynomial. It uses Weierstrass iteration, attributed also to Aberth and Ehrlich.
 - `JXG.Math.Numerics.glomin`: Brent's global minimizer of a function in one variable.
-- `JXG.Math.hypot`: Euclidean length of a arbitrary number of parameters.
+- `JXG.Math.hypot`: Euclidean length of an arbitrary number of parameters.
 - `JXG.Math.hstep`: Heaviside unit step function
 - `JXG.Math.Geometry.distPointSegment`: computes distance point from segment.
 - For fast access to a curve, a new quadtree implementation `JXG.Math.BoxQuadtree`
@@ -86,15 +86,15 @@ Further, this release contains many bug fixes and improvements. Mots notably,
 a quadratic runtime in `board.removeObject()` could finally removed. Deleting
 many objects at once should now work sufficiently fast. Other improvements:
 
-- Arrow heads can now switched with `setAttribute`
+- Arrowheads can now switched with `setAttribute`
 - The method `Value` of angle, sector and arc has been extended by the parameter 'unit'
 - Fullscreen support should now work everywhere (beside iphones, where it is forbidden)
 - Each of the navigation buttons for zooming, ... has now its own CSS class
-- The coordinates of points, texts and image can now be accessed with `element.Coords()`
+- The coordinates of points, texts, and image can now be accessed with `element.Coords()`
 instead of the slightly more cumbersome `[element.X(), element.Y()]`
 - The mediawiki plug-in works with the latest mediawiki version
 
-To see the a more complete list of changes, please consult [CHANGELOG.md](https://github.com/jsxgraph/jsxgraph/blob/main/CHANGELOG.md).
+To see a more complete list of changes, please consult [CHANGELOG.md](https://github.com/jsxgraph/jsxgraph/blob/main/CHANGELOG.md).
 
 As in most recent releases, TypeScript support of the new features is lagging behind. Please, if you are a TypeScript expert, help us to add the new features to `index.d.ts`.
 

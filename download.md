@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-subtitle: Latest version v1.7.0
+subtitle: Latest version v1.8.0
 ---
 
 **JSXGraph** needs two files:
