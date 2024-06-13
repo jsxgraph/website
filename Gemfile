@@ -2,5 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.2', '>= 4.2.1'
 gem 'jekyll-paginate', '~> 1.1'
-
 gem "webrick", "~> 1.7"
+gem 'liquid', '~>4.0', '>= 4.0.4'
+
