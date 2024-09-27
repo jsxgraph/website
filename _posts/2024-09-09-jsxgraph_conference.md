@@ -12,7 +12,7 @@ this is the 2nd announcement of the 5th international JSXGraph conference.
 
 Date: 8.-10. October 2024
 
-Conference homepage: >https://jsxgraph.org/conf2024/>
+Conference homepage: <https://jsxgraph.org/conf2024/>
 
 The conference will bring together developers and teachers, instructors and designers who are interested or already experienced in using [JSXGraph](https://jsxgraph.org) to enhance digital learning of STEM topics.
 
