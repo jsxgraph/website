@@ -1,5 +1,7 @@
 .RECIPEPREFIX=>
 
+all: build
+
 dev:
 >bundle exec jekyll serve
 
@@ -12,4 +14,4 @@ update:
 deploy:
 >cd _site; ../copy2server.sh * 
 
-.PHONY: dev build clean update deploy
+.PHONY: dev build update deploy
