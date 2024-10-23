@@ -8,7 +8,7 @@ categories:
 
 Dear friends of JSXGraph,
 
-SXGraph v1.10.1 is a patch release with various bug fixes. Now, it is no longer possible to drag a glider object off the hosting function graph. Also, 3D points can not be dragged outside of the 3D view box and a non-visible 3D plane does not crash JSXGraph.
+JSXGraph v1.10.1 is a patch release with various bug fixes. Now, it is no longer possible to drag a glider object off the hosting function graph. Also, 3D points can not be dragged outside of the 3D view box and a non-visible 3D plane does not crash JSXGraph.
 
 Further, the very python2 server module to call software on server side has been retired and taken out of the source code (it is still available in `src/unused`). Meanwhile, there exist much better ways to communicate with programs on server side.
 
