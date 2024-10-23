@@ -12,7 +12,7 @@ JSXGraph v1.10.1 is a patch release with various bug fixes. Now, it is no longer
 
 Further, the very python2 server module to call software on server side has been retired and taken out of the source code (it is still available in `src/unused`). Meanwhile, there exist much better ways to communicate with programs on server side.
 
-There is one notable improvement (supplied by @tom-berend): the initial and final speed of animated points can now be adjusted, see [`moveTo()`](https://jsxgraph.org/docs/symbols/JXG.CoordsElement.html#moveTo) and [`visit()`](https://jsxgraph.org/docs/symbols/JXG.CoordsElement.html#moveTo)
+There is one notable improvement (supplied by @tom-berend): the initial and final speed of animated points can now be adjusted, see [`moveTo()`](https://jsxgraph.org/docs/symbols/JXG.CoordsElement.html#moveTo) and [`visit()`](https://jsxgraph.org/docs/symbols/JXG.CoordsElement.html#moveTo).
 
 For more improvements and bug fixes see the CHANGELOG.
 
