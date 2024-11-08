@@ -59,7 +59,7 @@ __Availability of the beta version:__
 - cdnjs: <https://cdn.jsdelivr.net/npm/jsxgraph@1.11.0-beta1/distrib/jsxgraphcore.js>
 - source code: Checkout branch `develop` or tag `v1.11.0beta1`
 
- __24 hours of JSXGraph:__
+ __24 hours of JSXGraph__
 
 Finally, we want to announce again the first JSXGraph *face-to-face event* __24 hours of JSXGraph__ on February 26./27, 2025 at the University of Bayreuth, Germany. The meeting homepage is <https://jsxgraph.org/24hours2025/>. The event is free of charge and everybody is invited to come and show, learn, do, and discuss JSXGraph related topics.
 
