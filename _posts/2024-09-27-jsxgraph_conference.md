@@ -8,8 +8,6 @@ categories:
 
 Dear friends of JSXGraph,
 
-Dear friends of JSXGraph,
-
 this is the 3nd announcement of the 5th international JSXGraph conference 2024 (online conference).
 
 Date: 8.-10. October 2024
