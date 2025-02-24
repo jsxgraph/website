@@ -10,7 +10,7 @@ Dear friends of JSXGraph,
 
 today we released JSXGraph v1.11.0-beta1 on our web server and on npm (and therefore on cdnjs, too). At this point we are still at an early development stage of version 1.11. However, this release contains already now three major new developments for which we hope to get your feedback:
 
-1. __Accessibility:__ When used with the SVG rendering (i.e. the default), it is now possible to supply ARIA attributes for all JSXGraph elements.
+- __Accessibility:__ When used with the SVG rendering (i.e. the default), it is now possible to supply ARIA attributes for all JSXGraph elements.
 See the [API docs](https://jsxgraph.org/beta/docs/symbols/JXG.GeometryElement.html#aria) for more information. In fact, one can supply all attributes starting with an `aria-`.
 Here is an example:
 
@@ -28,11 +28,11 @@ var p = board.create('point', [2, 3], {
 
 See it live at <https://jsfiddle.net/t21mdaqe/1/>.
 
-2. __CSS classes for all elements:__ When used with the SVG rendering (i.e. the default), the attributes `cssClass` and `highlightCssClass` are now available for all elements. See the [API docs](https://jsxgraph.org/beta/docs/symbols/JXG.GeometryElement.html#cssClass) for more information. This not only useful to apply CSS properties to JSXGraph elements, it also opens the door to the wonderful world of SVG filters and patterns. At <https://jsfiddle.net/pfskmrh2/1/> is an example which shows the possibilities. 
+- __CSS classes for all elements:__ When used with the SVG rendering (i.e. the default), the attributes `cssClass` and `highlightCssClass` are now available for all elements. See the [API docs](https://jsxgraph.org/beta/docs/symbols/JXG.GeometryElement.html#cssClass) for more information. This not only useful to apply CSS properties to JSXGraph elements, it also opens the door to the wonderful world of SVG filters and patterns. At <https://jsfiddle.net/pfskmrh2/1/> is an example which shows the possibilities. 
 
 As of November 2024 this feature is supported by Chrome, Edge and Firefox. Depending on the filters, we could observe massive performance problems on Safari browsers.
 
-3. __Attribute functions are executed with the JSXGraph object as parameter:__ If an attribute of a JSXGraph element is determined by a function, the function receives that object as parameter. This feature can be compared with JavaScript event listeners which always receive an object `evt` as parameter. This feature was on our wish list for many years! Here is a simple example:
+- __Attribute functions are executed with the JSXGraph object as parameter:__ If an attribute of a JSXGraph element is determined by a function, the function receives that object as parameter. This feature can be compared with JavaScript event listeners which always receive an object `evt` as parameter. This feature was on our wish list for many years! Here is a simple example:
 
 ```.javascript
 board.create('point', [0, 0], {
