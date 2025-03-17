@@ -3,6 +3,14 @@
     <div class="row">
       <div class="col-lg-12  col-md-12">
         <ul class="list-inline text-center footer-links">
+          <li>
+            <a href="https://forum.jsxgraph.org/" title="JSXGraph forum">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
           {% if site.author.facebook and site.footer-links-active.facebook %}
           <li>
             <a href="https://www.facebook.com/{{ site.author.facebook }}" title="Facebook">
@@ -64,7 +72,7 @@
             </a>
           </li>
           {% endif %}
-          {% if site.author.googlegroups and site.footer-links-active.googlegroups %}
+          <!-- {% if site.author.googlegroups and site.footer-links-active.googlegroups %}
           <li>
             <a href="https://groups.google.com/forum/#!forum/{{ site.author.googlegroups }}" title="Google groups">
               <span class="fa-stack fa-lg">
@@ -73,7 +81,7 @@
               </span>
             </a>
           </li>
-          {% endif %}
+          {% endif %} -->
 		  {% if site.footer-links-active.rss %}
 		  <li>
 			<a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="RSS">

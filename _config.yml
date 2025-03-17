@@ -52,10 +52,11 @@ author:
   github: jsxgraph    # eg. daattali
   twitter: yourname   # eg. daattali
   stackoverflow: 3336514/alfred-wassermann  # eg. "3943160/daattali"
-  googlegroups: jsxgraph  # eg. "3943160/daattali"
+  googlegroups: jsxgraph  # 
 
 # Select which links to show in the footer
 footer-links-active:
+  discourse: true
   rss: true
   facebook: false
   email: true
