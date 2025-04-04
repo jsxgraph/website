@@ -8,6 +8,7 @@ subtitle: Dynamic Mathematics with JavaScript
 
 Available previous JSXGraph versions hosted on *<https://jsdelivr.com>* are:
 
+- <https://cdn.jsdelivr.net/npm/jsxgraph@1.11.0/distrib/jsxgraphcore.js>
 - <https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraphcore.js>
 - <https://cdn.jsdelivr.net/npm/jsxgraph@1.10.0/distrib/jsxgraphcore.js>
 - <https://cdn.jsdelivr.net/npm/jsxgraph@1.9.2/distrib/jsxgraphcore.js>
@@ -37,6 +38,7 @@ Available previous JSXGraph versions hosted on *<https://jsdelivr.com>* are:
 
 Available previous JSXGraph versions hosted on *cdnjs* are:
 
+- <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.11.0/jsxgraphcore.js>
 - <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.10.1/jsxgraphcore.js>
 - <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.10.0/jsxgraphcore.js>
 - <https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/1.9.2/jsxgraphcore.js>
@@ -79,6 +81,7 @@ Available previous JSXGraph versions hosted on *cdnjs* are:
 
 ### From JSXGraph site
 
+- v1.11.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.11.0.js>
 - v1.10.1: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.10.1.js>
 - v1.10.0: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.10.0.js>
 - v1.9.2: <https://jsxgraph.uni-bayreuth.de/distrib/jsxgraphcore-1.9.2.js>
